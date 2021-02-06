@@ -1,0 +1,15 @@
+[submodule "PDGE"]
+	path = PDGE
+	url = git@github.com:Ludvins/Practicas_PDGE.git
+[submodule "PE/Tiempo continuo"]
+	path = PE/Tiempo continuo
+	url = https://github.com/Ludvins/Practicas_PE
+[submodule "MAAA"]
+	path = MAAA
+	url = https://github.com/Ludvins/Practicas_MAAA
+[submodule "CN"]
+	path = CN
+	url = https://github.com/Ludvins/Practicas_CN
+[submodule "GD/Tratamiento datos"]
+	path = GD/Tratamiento datos
+	url = https://github.com/Ludvins/Practicas_GD

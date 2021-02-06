@@ -1,0 +1,261 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=magenta}
+\setlength{\parindent}{0in}
+\usepackage[margin=1.1in]{geometry}
+\usepackage[spanish]{babel}
+\usepackage{mathtools}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{engord}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage[center]{caption}
+\usepackage{placeins}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{bayesnet}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.text}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{pdfpages}
+\titlespacing*{\subsection}{0pt}{5.5ex}{3.3ex}
+\titlespacing*{\section}{0pt}{5.5ex}{1ex}
+\author{Luis Antonio Ortega Andrés\\Antonio Coín Castro}
+\date{\today}
+\title{Práctica Anonimización\\\medskip
+\large Gestión de datos}
+\begin{document}
+
+\maketitle
+
+\section{Problema a resolver y consideraciones generales}
+
+En este ejercicio pretendemos obtener toda la información estadística que podamos para reidentificar al profesor Ortigosa a partir de un \textit{dataset} público de la UAM sobre PDI en el año 2018\footnote{\href{https://www.universidata.es/datasets/uam-personal-pdi}{https://www.universidata.es/datasets/uam-personal-pdi}}. Este conjunto de datos se encuentra anonimizado, pero disponemos de información sobre las variables pivote y los bloques de coherencia utilizados. Nuestro propósito es explotar este conocimiento junto a otras informaciones externas sobre el profesor Ortigosa para intentar deanonimizar su información en el conjunto de datos.\\
+
+La información inicial de la que partimos es la siguiente:
+
+\begin{itemize}
+  \item El profesor se encuentra en el dataset.
+  \item Su género es masculino.
+  \item Pertenece al Departamento de Ingeniería Informática de la UAM.
+\end{itemize}
+
+Todas las manipulaciones, comprobaciones e inferencia realizadas para este trabajo se encuentran en el archivo adjunto \verb@anon.py@.
+
+\subsection{Información externa}
+
+Además de la información que se proporciona, tenemos también información obtenida del perfil del profesor Ortigosa en el Portal Científico de la UAM\footnote{\href{https://portalcientifico.uam.es/ipublic/agent-personal/profile/iMarinaID/04-261195}{https://portalcientifico.uam.es/ipublic/agent-personal/profile/iMarinaID/04-261195}}, así como de menciones en torno a 2018 sobre el profesor Origosa y su relación laboral con la UAM \href{https://atip.es/wp-content/uploads/2018/06/Programa-EAI_2018-2019.pdf}{aquí}, \href{https://www.icfs-uam.es/miembros/}{aquí} y \href{https://www.madridnetwork.org/eventosmn/seminarioi4/}{aquí}. Supondremos que estos datos son correctos y que estaban actualizados (a la fecha de redacción de este documento). En concreto, los datos que usaremos son:
+
+\begin{itemize}
+  \item Su Área de Conocimiento a fecha de 2018 era \textbf{Lenguajes y Sistemas Informáticos}.
+  \item Leyó su Tesis Doctoral y recibió el título de doctor en la UAM en el \textbf{año 2000}.
+  \item A fecha de 2018 tenía \textbf{3 quinquenios} y \textbf{4 sexenios}.
+  \item A fecha de 2018 era \textbf{profesor contratado doctor}.
+\end{itemize}
+
+\section{Localización de variables pivote}
+
+Según la información sobre cómo ha sido anonimizado el dataset, las variables pivote son \textbf{el género} y \textbf{la unidad responsable}, representadas o bien por el código o bien por la decripción (nosotros elegiremos la primera representación para hacer los razonamientos). La primera de estas variables ya la conocemos, pues sabemos que debe ser \verb@cod_genero="H"@.\\
+
+Conocer estas variables pivote es muy importante, ya que conservan la relación respecto a todos los bloques de coherencia. Es por esto que nuestra primera tarea será encontrar la segunda de las variables pivote, \verb@cod_unidad_responsable@. Para ello podemos  utilizar alguna de las informaciones de las que disponemos. En concreto, utilizamos que conocemos cuál debe ser el área de conocimiento, suponiendo que esta información localizará unívocamente el código de la unidad (departamento) responsable. En efecto, si buscamos en el dataset aquellos elementos cuya área de conocimiento sea Lenguajes y Sistemas Informáticos, resulta que para todos ellos el código de unidad responsable es el mismo: 55001545.
+
+\begin{minted}{python}
+query_pivote = \
+  'des_area_conocimiento == "Lenguajes y Sistemas Informáticos"'
+df.query(query_pivote)["cod_unidad_responsable"] # --> 55001545
+\end{minted}
+
+La pega que podríamos tener en este razonamiento es que el campo \verb@des_area_conocimiento@ para el profesor Ortigosa fuera un valor perdido (NaN). Podemos comprobar que esto no ocurre utilizando alguna otra información adicional. Notamos que en la sintaxis de \verb@Pandas@, para comprobar si un valor es NaN podemos comprobar si es igual a él mismo (los valores NaN son los únicos que no verifican esto). El razonamiento (que reproducimos en el archivo Python) es el siguiente, teniendo en cuenta la coherencia de las variables implicadas:
+
+\begin{enumerate}
+  \item Existen solo dos códigos de unidad responsable cuyo área de conocimiento asociado es NaN: 55001539 y NaN.
+  \item No existe ninguna persona con el código 55001539, 3 quinquenios y 4 sexenios, o bien con ese código y alguno de los otros dos campos a NaN (o los dos).
+  \item Tampoco existe ninguna persona con el código NaN, 3 quinquenios y 4 sexenios, o bien con ese código y alguno de los otros dos campos a NaN (o los dos).
+\end{enumerate}
+
+A partir de ahora, tendremos una consulta por defecto para intentar localizar información en cada bloque, que se basará en buscar por el código de unidad responsable y el género del profesor Ortigosa, es decir, las variables pivote (que ya conocemos). En los casos donde dispongamos de información adicional, modificaremos la consulta para incluirla.
+
+\begin{minted}{python}
+standard_query = \
+  'cod_unidad_responsable == "55001545.0" & cod_genero == "H"'
+\end{minted}
+
+\section{Inferencia en bloques de coherencia}
+
+Iremos ahora analizando bloque a bloque y campo a campo para encontrar los valores más probables para el profesor Ortigosa, dando información estadística sobre la predicción (número de veces que aparece el valor más probable dividido por el número total de opciones). Para ello disponemos de una función \verb@freq@ que devuelve el nivel de certeza de cada valor para un campo dado, contando únicamente dentro de aquel subconjunto que cumpla nuestra consulta estándar con las variables pivote (\verb@standard_query@). Destacaremos en negrita la información que ya conozcamos por fuentes externas.
+
+\subsection{Bloque 1}
+El bloque 1 es el más sencillo, ya que todas sus variables tienen el mismo valor para todas las entradas del dataset. Por tanto, tenemos que los valores extraidos son:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_universidad & Universidad Autónoma de Madrid & 100\\
+    anio & 2018 & 100
+  \end{tabular}
+\end{table}
+
+\subsection{Bloque 2}
+Para este bloque, como no disponemos a priori de información adicional, simplemente llamamos a la función \verb@freq@ sobre cada uno de los campos y mostramos los resultados. En lo sucesivo cuando en un bloque no comentemos nada será porque seguimos esta misma estrategia.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_pais\_nacionalidad& España & 98.25\\
+    des\_continente\_nacionalidad & Europa & 100\\
+    des\_agregacion\_paises\_nacionalidad & Europa meridional & 100
+  \end{tabular}
+\end{table}
+
+\subsection{Bloque 3}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_comunidad\_residencia& Madrid & 100\\
+    des\_provincia\_residencia& Madrid & 100\\
+    des\_municipio\_residencia& MADRID & 49.12\\
+  \end{tabular}
+\end{table}
+\newpage
+
+\subsection{Bloque 4}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    anio\_nacimiento& 1967 & 8.77\\
+  \end{tabular}
+\end{table}
+
+\subsection{Bloque 5}
+En este caso podemos usar información externa. Antes de nada, comprobamos que entre todas las entradas que tienen las variables pivote al valor correcto, ninguna tiene un valor NaN en el campo \verb@cod_categoria_cuerpo_escala@. Una vez hecho esto, usamos que el profesor Ortigosa era Profesor Contratado Doctor, que sabemos que tiene el código ``5'' dentro de ese campo.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_tipo\_personal& Personal laboral & 100\\
+    des\_categoria\_cuerpo\_escala & \textbf{Profesor Contratado Doctor} & 100\\
+    des\_tipo\_contrato & Contrato Indefinido o Fijo & 88.23\\
+    des\_dedicacion & Dedicación a Tiempo Completo & 100\\
+    num\_horas\_semanales\_tiempo\_parcial & NaN & 100\\
+    des\_situacion\_administrativa & Servicio Activo & 100
+
+  \end{tabular}
+\end{table}
+
+\subsection{Bloque 6}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    ind\_cargo\_remunerado& N & 82.46
+
+  \end{tabular}
+\end{table}
+
+\subsection{Bloque 7}
+Utilizamos la información de que el profesor Ortigosa leyó su tesis doctoral y recibió el título de doctor en la UAM en el año 2000. En primer lugar, encontramos todas las entradas que cumplen estos requisitos y además tienen bien las variables pivote (contando siempre que alguno de los campos pueda ser NaN). Después utilizamos la información de que tiene 1 doctorado para añadirlo a la consulta.
+\newpage
+\begin{table}[ht!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_titulo\_doctorado& \textbf{Uno} & 100\\
+    des\_pais\_doctorado & España & 50^\ast\\
+    des\_continente\_doctorado& Europa & 50^\ast\\
+    des\_agregacion\_paises\_doctorado & Europa Meridional & 50^\ast\\
+    des\_universidad\_doctorado & \textbf{Universidad Autónoma de Madrid} & 100\\
+    anio\_lectura\_tesis & \textbf{2000} & 100\\
+    anio\_expedicion\_titulo\_doctor & \textbf{2000} & 100\\
+    des\_mencion\_europea & No & 100\\
+  \end{tabular}
+\end{table}
+$^\ast$ El resto de valores posibles (el otro 50\%) son NaN.
+
+\section{Bloque 8}
+Utilizamos la información sobre su área de conocimiento.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    des\_tipo\_unidad\_responsable & Departamento & 100\\
+    des\_area\_conocimiento & \textbf{Lenguajes y Sistemas Informáticos} & 100
+  \end{tabular}
+\end{table}
+
+\section{Bloque 9}
+En este caso solo hay una persona que cumple los requisitos de los sexenios y quinquenios que sabemos que debe haber (junto con las variables pivote). Nos hemos asegurado de comprobar que estos campos no tenían valores NaN.
+
+\begin{table}[ht!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    anio\_incorporacion\_ap& NaN & 100\\
+    anio\_incorpora\_cuerpo\_docente& NaN & 100\\
+    num\_trienios & 5 & 100\\
+    num\_quinquenios & \textbf{3} & 100\\
+    num\_sexenios & \textbf{4} & 100
+  \end{tabular}
+\end{table}
+
+\section{Bloque 10}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    num\_tesis & NaN & 94.74^\ast\\
+  \end{tabular}
+\end{table}
+$^\ast$ El otro valor posible es 1.0
+
+\newpage
+\section{Bloque 11}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|c|c}
+    Campo & Valor más probable & Nivel de certeza (\%)\\
+    \hline
+    ind\_investigador\_principal & N & 75.44\\
+  \end{tabular}
+\end{table}
+
+
+\end{document}
