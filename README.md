@@ -1,2 +1,3 @@
-# mcd
-Prácticas y proyectos del Máster en Ciencia de Datos de la UAM.
+# Máster en Ciencia de Datos (UAM)
+
+Curso 2020/21
