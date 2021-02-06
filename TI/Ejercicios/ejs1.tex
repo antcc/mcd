@@ -1,0 +1,252 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[shortlabels]{enumitem}
+\usepackage{boldline}
+\usepackage{amssymb, amsmath}
+\usepackage{amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{upgreek}
+
+\hypersetup{
+  linkcolor=magenta
+}
+
+% Meta
+\title{Teoría de la Información\\ \Large{Ejercicios Tema 1} }
+\author{Antonio Coín Castro}
+\date{\today}
+
+% Custom
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\setlength\parindent{0pt}
+% Redefinir letra griega épsilon.
+\let\epsilon\upvarepsilon
+% Fracciones grandes
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+% Primera derivada parcial: \pder[f]{x}
+\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+
+\newcommand{\fx}{\frac{1}{\sqrt{2\pi}\sigma} e^{\frac{-(x-\mu)^2}{2\sigma^2}}}
+\newcommand{\R}{\mathbb{R}}
+
+\begin{document}
+\maketitle
+
+\textbf{Ejercicio 1}. Sea $X \sim \mathcal{N}(\mu, \sigma^2)$. Probar que la entropía de $X$ viene dada por
+\[
+S(X)=\frac{1}{2}\log_2(2\pi e\sigma^2).
+\]
+
+\textit{Solución.} Sabemos que en el caso continuo la entropía se calcula como
+\[
+S=-\int_{\mathcal X} f(x)\log_2f(x)\, dx.
+\]
+
+En nuestro caso $\mathcal X=\mathbb{R}$ y $f(x)=\fx$, y usando que $\log_b x=\log_c x / \log_c b$ se tiene:
+\begin{align*}
+S &= -\int_\R \fx \frac{1}{\log 2}\log\left(\fx \right)\, dx \\
+&= -\frac{1}{\log 2} \left( \int_\R f(x) \log\left( \frac{1}{\sqrt{2\pi}\sigma} \right)\, dx - \int_\R f(x)\frac{(x-\mu)^2}{2\sigma^2}\, dx\right) \\
+&= -\frac{1}{\log 2} \Bigg( \log\left( \frac{1}{\sqrt{2\pi}\sigma}\right) \underbrace{\int_\R f(x)\, dx}_{=1} - \frac{1}{2\sigma^2} \underbrace{\int_\R f(x)(x-\mu)^2\, dx}_{=\mathbb{E}[(X - \mu)^2]} \Bigg) \\
+&= \frac{-\log\left(\frac{1}{\sqrt{2\pi}\sigma}\right)}{\log 2} + \frac{Var[X]}{2\sigma^2\log 2} = \frac{\log(\sqrt{2\pi}\sigma)}{\log 2} + \frac{\sigma^2}{2\sigma^2\log 2}\\
+&= \log_2(\sqrt{2\pi}\sigma) + \frac{\log e}{2\log 2} = \log_2(\sqrt{2\pi}\sigma) + \frac{1}{2}\log_2 e \\
+&= \frac{1}{2}(\log_2 ((\sqrt{2\pi}\sigma)^2) + \log_2 e)= \frac{1}{2}\log_2(2\pi\sigma^2 e).
+\end{align*}
+
+\vspace{1em}
+\textbf{Ejercicio 2}. Probar que la información mutua promedio $MI(X,Y)$ entre dos variables aleatorias $X$ e $Y$ es simétrica.\\
+
+\textit{Solución}. Es consecuencia directa de la definición, entendiendo que los símbolos $p(x,y)$ y $p(y,x)$ representan la misma distribución conjunta $(X,Y)$:
+\[
+MI(X,Y) = \sum_{x \in \mathcal X} \sum_{y \in \mathcal Y} p(x,y)\log_2 \left(\frac{p(x,y)}{p(x)p(y)}\right) = \sum_{y \in \mathcal Y} \sum_{x \in \mathcal X} p(y,x)\log_2 \left(\frac{p(y,x)}{p(y)p(x)}\right) = MI(Y,X),
+\]
+donde hemos podido intercambiar las sumas ya que son numerables y todos los sumandos son no negativos. En efecto, como
+\[
+p(x,y)=p(x|y)p(y)=p(y|x)p(x)
+\]
+sabemos que $p(x,y)\ge p(x)$ y también que $p(x,y)\ge p(y)$, luego $p(x,y)\ge p(x)p(y)$, y el argumento del logaritmo en la expresión de $MI(X,Y)$ es mayor o igual que $1$.\\
+
+En el caso continuo se llega a la misma conclusión aplicando el teorema de Fubini para intercambiar el orden de las integrales.
+
+\vspace{1em}
+
+\textbf{Ejercicio 3}. Probar que $MI(X,Y)=S(X)+S(Y) - S(X,Y)$ para dos variables aleatorias $X$ e $Y$.\\
+
+\textit{Solución}. Tenemos que:
+\begin{align*}
+MI(X,Y) &= \sum_{x \in \mathcal X} \sum_{y \in \mathcal Y} p(x,y)\log_2 \left(\frac{p(x,y)}{p(x)p(y)}\right)\\
+&= \sum_{x \in \mathcal X} \sum_{y \in \mathcal Y} p(x,y)(\log_2 p(x,y) - \log_2 p(x) -\log_2 p(y))\\
+&= \sum_{x\in \mathcal X} \sum_{y\in \mathcal Y} p(x, y)\log_2 p(x, y) - \sum_{x\in \mathcal X} \sum_{y\in \mathcal Y} p(x, y)\log_2 p(x) - \sum_{x\in \mathcal X} \sum_{y\in \mathcal Y} p(x, y)\log_2 p(y)\\
+&= -S(X,Y) - \sum_{x\in \mathcal X} \log_2 p(x) \sum_{y\in \mathcal Y} p(x,y) - \sum_{y\in \mathcal Y} \log_2 p(y) \sum_{x\in \mathcal X} p(x,y)\\
+&= -S(X,Y) - \sum_{x\in \mathcal X} \log_2 p(x)p(x)  -\sum_{y\in \mathcal Y} \log_2 p(y)p(y) \\
+&= -S(X,Y) + S(X) + S(Y).
+\end{align*}
+
+El caso continuo es totalmente análogo.
+
+\vspace{1em}
+
+\textbf{Ejercicio 4}. Probar las siguientes propiedades para dos variables aleatorias $X$ e $Y$:
+
+\begin{enumerate}
+  \item[\textit{(i)}] $S(X,Y) = S(X) + S(Y|X)=S(Y)+S(X|Y)$.
+  \item[\textit{(ii)}] $MI(X,Y)=S(X)-S(X|Y)=S(Y)-S(Y|X)$.
+  \item[\textit{(iii)}] $MI(X,X)=S(X)$.
+\end{enumerate}
+
+\textit{Solución}. A partir de ahora abreviaremos la notación de los subíndices en las sumatorias. En primer lugar comprobaremos $(i)$, usando repetidamente que $p(x,y)=p(y|x)p(x)$. Se tiene que:
+\begin{align*}
+S(X,Y) &= -\sum_{xy} p(x,y)\log_2 p(x,y) = - \sum_{xy} p(x,y)\log_2 (p(y|x)p(x))\\
+&= -\sum_{xy}p(x,y)\log_2 p(x) - \sum_{xy}p(y|x)p(x)\log_2 p(y|x) \\
+&= -\sum_x \log_2 p(x)p(x) - \sum_x p(x)\sum_y p(y|x)\log_2 p(y|x)\\
+&= S(X) + S(Y|X).
+\end{align*}
+
+Para probar la otra igualdad hacemos lo análogo pero esta vez descomponiendo $p(x,y)=p(x|y)p(y)$. Para ver $(ii)$ observamos que:
+
+\begin{align*}
+MI(X,Y) &= \sum_{xy}p(x,y)\log_2 \left( \frac{p(x|y)}{p(x)} \right)\\
+&= \sum_{xy} p(x,y)(\log_2 p(x|y)-\log_2 p(x))\\
+&= \sum_{xy} p(x|y)p(y)\log_2 p(x|y) - \sum_x \log_2 p(x)p(x)\\
+&= -S(X|Y) + S(X).
+\end{align*}
+
+La otra igualdad se obtiene intercambiando los papeles de $X$ e $Y$ en la igualdad ya probada, recordando que la información mutua es simétrica. Por último, $(iii)$ es una simple comprobación, teniendo en cuenta que $p(x|x)=1$ para todo $x\in \mathcal X$. En efecto, utilizando $(ii)$ tenemos que:
+\begin{align*}
+MI(X,X) &= S(X) - S(X|Y) = S(X) + \sum_x p(x) \sum_x p(x|x)\log_2 p(x|x)\\
+&= S(X) + \sum_x p(x)\cdot 0 = S(X).
+\end{align*}
+
+Todas las propiedades para el caso continuo se demuestran de forma análoga.
+\vspace{1em}
+
+\textbf{Ejercicio 5}. En el contexto de \textit{temporal coding}, probar que cuando $r\Delta t \ll 1$, entonces la entropía viene dada por
+\[
+S \approx Tr \log_2\left(\frac{e}{r\Delta t}\right).
+\]
+
+\textit{Solución}. En primer lugar establecemos el marco de trabajo. Supondremos que tenemos un tren de spikes de longitud fija $T$, dividido en \textit{bins} o ventanas de tamaño $\Delta t$, lo que significa que tendremos en total $M=T/\Delta t$ ventanas. Codificaremos la presencia de \textit{spikes} con un 1 y su ausencia con un 0, y supondremos que en cada ventana puede haber como mucho un \textit{spike}. Así, las observaciones de las que disponemos son cadenas binarias de longitud $M$.\\
+
+Definimos además el concepto de \textit{firing rate} como la frecuencia de \textit{spikes} observados en la muestra completa, es decir,
+\[
+r= \frac{\#\text{spikes}}{T}.
+\]
+
+De esta forma, la probabilidad de ocurrencia de un \textit{spike} en una ventana puede expresarse como su frecuencia de ocurrencia, es decir,
+\[
+p = \frac{\#\text{spikes}}{M} = \frac{\#\text{spikes}}{T/\Delta t} = r\Delta t.
+\]
+
+En lo sucesivo, supondremos para que las aproximaciones que hacemos tengan sentido que la probabilidad de ocurrencia de un \textit{spike} en una ventana es muy baja (cosa que se corresponde con el comportamiento real de las neuronas), es decir, que $r\Delta t \ll 1$. Esto podemos conseguirlo en la práctica tomando un tamaño suficientemente pequeño de ventana.\\
+
+Para estimar la entropía, supondremos que la cadena observada ha sido extraída aleatoriamente y de manera uniforme de entre todas los posibles cadenas con el mismo número de $1$s y $0$s. Dicho de otra forma, todos los eventos considerados son equiprobables con probabilidad dada por el inverso del número de tales cadenas binarias distintas posibles, es decir,
+\[
+p(x_i) = \frac{1}{\begin{pmatrix}
+  M\\Tr
+\end{pmatrix}}, \quad i = 1, \dots, \begin{pmatrix}
+  M\\Tr
+\end{pmatrix}.
+\]
+
+En el caso de sucesos equiprobables sabemos que la entropía viene dada por el logaritmo binario del número total de eventos. Si llamamos por comodidad $M_1=Tr$ al número de $1$s y $M_0=M-M_1$ al número de $0$s, se tiene que
+\begin{equation}
+  \label{entropy}
+S=\log_2 \begin{pmatrix}
+  M\\ M_1
+\end{pmatrix} = \log_2 \left(\frac{M!}{M_0!M_1!}\right) = \frac{1}{\log 2}(\log M! - \log M_0! - \log M_1!).
+\end{equation}
+
+Si suponemos que las cadenas observadas son suficientemente largas, podemos usar la \href{https://en.wikipedia.org/wiki/Stirling%27s_approximation}{fórmula de Stirling} para aproximar $\log x!$, que toma la forma
+\[
+\log x! = x(\log x - 1) + \mathcal{O}(\log x),
+\]
+donde el resto es despreciable cuando $x\to \infty$. Sustituyendo esta aproximación en \eqref{entropy} tenemos:
+\begin{align*}
+  S &\approx \frac{1}{\log 2}(M(\log M - 1) - M_0(\log M_0 - 1) - M_1(\log M_1 - 1))\\
+  &= \frac{1}{\log 2}(M\log M - M_0\log M_0 - M_1\log M_1 + (M_0 + M_1 - M))\\
+  [M=M_0+M_1] \quad &= \frac{1}{\log 2}(M_1(\log M - \log M_1) + M_0(\log M - \log M_0))\\
+  &= - \frac{M}{\log 2}\left((M_1/M)\log(M_1/M) + (M_0/M)\log(M_0/M))\\
+  [p=M_1/M]\quad &= - \frac{M}{\log 2} (p\log p + (1-p)\log(1-p))\\
+  \tag{2}
+  \label{eq}
+  [M=T/\Delta t\, ; \,p=r\Delta t]\quad&= - \frac{T}{\Delta t \log 2}(r\Delta t \log(r\Delta t) + (1 - r\Delta t)\log(1 - r\Delta t)).
+\end{align*}
+
+Ahora podemos considerar el desarrollo en serie de Taylor de la función $\log(1+x)$, es decir, $\log(1+x)=x + \mathcal O(x^2)$. Identificando $x=-r\Delta t$ y dado que estamos suponiendo que $r\Delta t$ es pequeño ($\ll 1$), podemos considerar que el resto de Taylor es despreciable. Sustituyendo la aproximación en \eqref{eq} nos queda:
+\begin{align*}
+  S &\approx - \frac{T}{\Delta t \log 2}(r\Delta t \log(r\Delta t) + (1 - r\Delta t)(- r\Delta t))\\
+  \tag{3}
+  \label{eq2}
+  &\approx - \frac{T}{\Delta t \log 2}(r\Delta t \log(r\Delta t) - r\Delta t),
+\end{align*}
+donde de nuevo despreciamos los términos proporcionales a $(r\Delta t)^2$. Finalmente simplificamos la expresión \eqref{eq2} para obtener lo que queríamos:
+\begin{align*}
+  S &\approx - \frac{T}{\Delta t \log 2}r\Delta t(\log(r\Delta t) - 1)\\
+   &= - \frac{Tr}{\log 2}(\log(r\Delta t) - \log e)\\
+   &= \frac{Tr}{\log 2}\log\left( \frac{e}{r\Delta t}\right)\\
+   &= Tr \log_2\left( \frac{e}{r\Delta t}\right).
+\end{align*}
+
+
+\textbf{Ejercicio 6}. Demostrar la regla de la cadena para la entropía condicionada con tres variables aleatorias $X,Y$ y $Z$, es decir,
+
+\[
+S(X,Y|Z) = S(X|Z) + S(Y|X, Z).
+\]
+
+\textit{Solución}. Utilizando la definición de probabilidad condicionada y la regla del producto, podemos escribir:
+
+\[
+p(x,y|z)=\frac{p(z)p(x|z)p(y|x,z)}{p(z)}=p(x|z)p(y|x,z).
+\]
+
+Tomando logaritmos en la expresión anterior tenemos que
+
+\[
+\log_2 p(x,y|z)=\log_2 p(x|z)+\log_2 p(y|x,z),
+\]
+
+y tomando ahora esperanzas a ambos lados (sobre la distribución conjunta $(X,Y,Z)$) se tiene:
+\[
+\mathbb{E} \left[\log_2 p(x,y|z)\right] = \mathbb{E} \left[\log_2 p(x|z)\right] + \mathbb{E} \left[\log_2 p(y|x,z)\right].
+\]
+
+Atendiendo a la definición de entropía condicionada, la expresión anterior es equivalente a lo que queríamos probar, es decir,
+
+\[
+S(X,Y|Z)=S(X|Z)+S(Y|X,Z).
+\]
+
+\textit{Solución alternativa.} También podemos entender el resultado como una consecuencia directa de la regla de la cadena para dos variables,
+
+\[
+S(X,Y)=S(X) + S(Y|X).
+\]
+
+En efecto, esta regla para tres variables nos dice que
+
+\[
+S(X,Y,Z)=S(Z) + S(X,Y|Z),
+\]
+
+y sucesivas aplicaciones de la misma nos permiten escribir:
+\begin{align*}
+S(X,Y,Z)&=S(Z) + S(X,Y|Z) \iff\\
+S(X, Z) + S(Y|X, Z) &= S(Z) + S(X,Y|Z) \iff\\
+S(Z) + S(X|Z) + S(Y|X,Z)&=S(Z)+S(X,Y|Z)\iff\\
+S(X|Z) + S(Y|X,Z)&=S(X,Y|Z).
+\end{align*}
+
+Notamos que tanto esta demostración como la anterior son válidas también en el caso continuo.
+
+
+
+\end{document}

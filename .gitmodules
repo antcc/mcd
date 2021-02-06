@@ -13,3 +13,6 @@
 [submodule "GD/Tratamiento datos"]
 	path = GD/Tratamiento datos
 	url = https://github.com/Ludvins/Practicas_GD
+[submodule "TI/Practica"]
+	path = TI/Practica
+	url = https://github.com/Ludvins/Practicas_TI
