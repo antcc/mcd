@@ -11,3 +11,12 @@ Curso 2020/21.
 **PST**: Procesamiento de Señal y Transformadas.       
 **TI**: Teoría de la Información.       
 
+**APPIB**: Aprendizaje Profundo para Procesamiento de Información Biométrica.      
+**APPSIV**: Aprendizaje Profundo para Procesamiento de Señales de Imagen y Vídeo.     
+**AR**: Aprendizaje por Refuerzo.     
+**INE**: Información No Estructurada.    
+**MF**: Métodos Funcionales en Aprendizaje Automático.          
+**OPTIM**: Optimización.     
+**PICDD**: Proyecto de Investigación en Ciencia de Datos.    
+**PIT**: Procesamiento de Información Temporal.   
+
