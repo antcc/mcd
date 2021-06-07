@@ -1,0 +1,282 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[shortlabels]{enumitem}
+\usepackage{boldline}
+\usepackage{amssymb, amsmath}
+\usepackage{amsthm}
+\usepackage{subcaption}
+\usepackage[noend]{algpseudocode}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{upgreek}
+\usepackage[spanish, es-tabla]{babel}
+%\usepackage{ebgaramond}
+%\usepackage{stmaryrd}
+\usepackage{bm}
+\usepackage{cancel}
+%\usepackage{unicode-math}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{patterns}
+\usepackage{tikz}
+
+%\setmathfont{Libertinus Math}
+\decimalpoint
+
+\hypersetup{
+  linkcolor=magenta
+}
+
+% Meta
+\title{Examen Optimización Parte I\\}
+\author{Antonio Coín Castro}
+\date{\today}
+
+% Custom
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\setlength\parindent{0pt}
+% Redefinir letra griega épsilon.
+\let\epsilon\upvarepsilon
+% Fracciones grandes
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+% Primera derivada parcial: \pder[f]{x}
+\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+
+\newcommand{\fx}{\frac{1}{\sqrt{2\pi}\sigma} e^{\frac{-(x-\mu)^2}{2\sigma^2}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\I}[1]{\mathbb{I}_{\{#1\}}}
+\providecommand{\p}{\mathbb{P}}
+
+\begin{document}
+\maketitle
+
+\section*{Cuestiones}
+
+\textbf{Cuestión 1.} \emph{Especifica las diferencias existentes entre las variables de holgura y las variables artificiales en problemas de programación lineal.}\\
+
+\textit{Respuesta}. Las variables de holgura son aquellas que introducimos cuando queremos estandarizar un PPL, es decir, cuando tenemos un problema con restricciones de la forma $Ax\leq b$ ó $Ax\geq b$ y queremos transformarlo en otro \textbf{equivalente} $Ax = b$, siempre con $x \geq 0$. Concretamente, son variables no negativas que se suman o se restan en una inecuación para transformarla en una ecuación, manteniendo las mismas soluciones. Es decir, si $x_h\geq 0$, podemos escribir:
+\[
+\sum_j a_{ij}x_j \geq b_i \iff \sum_j a_{ij}x_j - x_{h} = b_i \quad \text{ó} \quad \sum_j a_{ij}x_j \leq b_i \iff \sum_j a_{ij}x_j + x_{h} = b_i.
+\]
+
+Por otro lado, las variables artificiales surgen cuando no encontramos fácilmente una SBF inicial para aplicar el algoritmo símplex. En ese caso, introducimos variables artificiales (siempre no negativas) de forma que consigamos en la matriz $A$ de restricciones las columnas de la identidad, para poder partir de ella en una fase previa a la resolución del problema (método de dos fases). La gran diferencia es que el problema modificado $Ax + x_a = b, $ con $x,x_a\geq 0$ \textbf{no es equivalente} al original. Es decir, las variables artificiales no son legítimas; se introducen para facilitar una SBF inicial pero no pueden pertenecer a la solución.\\
+
+\textbf{Cuestión 2.} \emph{¿Cuáles son los criterios de parada del algoritmo símplex algebraico?}\\
+
+\textit{Respuesta}. Llamemos $Q$ al conjunto de variables no básicas en el contexto del algoritmo símplex. Por un lado, el algoritmo se detiene cuando $z_j-c_j\leq 0$ para todo $j\in Q$, donde $z_j=c_BB^{-1}a_j$, y $c_j$ es la componente $j$-ésima del vector de costes. Esto significa que ya no podemos optimizar más la solución, luego la solución actual es óptima.\\
+
+Por otro lado, el otro criterio de parada es que, una vez que hemos decidido que $x_k$ entra en la base, la \textit{razón mínima}
+\[
+\min_{1\leq i \leq m} \left\{ \frac{\bar b_i}{y_{ik}}: \ y_{ik}>0\right\}
+\]
+no exista, donde $y_k=B^{-1}a_k$ y $\bar b = B^{-1}b$. En ese caso, el algoritmo se detiene y tendremos garantía de que la solución óptima es no acotada.\\
+
+\textbf{Cuestión 3.} \emph{Definición de problema Dual de un problema Primal. ¿Qué relación existe entre ambos en términos de las soluciones posibles?}.\\
+
+\textit{Respuesta.} Dado un PPL, que llamaremos \textit{primal}, se define su problema \textit{dual} como un PPL derivado en el que:
+\begin{itemize}
+  \item Cada variable del PPL primal se convierte en una restricción en el PPL dual.
+  \item Cada restricción del PPL primal se convierte en una variable del PPL dual.
+  \item La función objetivo se invierte: maximizar en el PPL primal se transforma en minimizar en el PPL dual, y viceversa.
+\end{itemize}
+
+Aunque para definir el problema dual no es necesario que el problema primal se encuentre en ninguna forma específica, es útil dar la definición en el caso en el que el PPL primal está en forma canónica. En concreto, el problema dual del problema primal
+
+\begin{equation}
+  \label{eq:primal}
+  \tag{PP}
+\max z=c^Tx \quad \text{s.t.} \quad Ax\leq b, \quad x\geq 0
+\end{equation}
+
+es
+\begin{equation}
+  \label{eq:dual}
+  \tag{PD}
+\min z^{\ast}=b^Ty \quad \text{s.t.} \quad A^Ty\geq c, \quad y\geq 0,
+\end{equation}
+
+y se puede ver fácilmente que el dual del dual vuelve a ser el primal. En cuanto a la relación entre ambos en términos de las soluciones, tenemos dos resultados principales:\\
+
+\textbf{Teorema de dualidad débil.} El valor de la función objetivo en cualquier solución factible de \eqref{eq:primal} es siempre menor o igual que el valor de la correspondiente función objetivo en cualquier solución factible de \eqref{eq:dual}.\\
+
+\textbf{Teorema de dualidad fuerte.} Si alguno de \eqref{eq:primal} ó \eqref{eq:dual} tiene solución óptima finita, entonces el otro también, y además el valor óptimo de las funciones objetivo coincide.\\
+
+Además, como consecuencia de la dualidad débil, tenemos el siguiente resultado:\\
+
+\textbf{Corolario.} Si alguno de \eqref{eq:primal} ó \eqref{eq:dual} tiene solución óptima no acotada, entonces el otro no tiene solución.\\
+
+\textit{Demostración.} Supongamos que es \eqref{eq:primal} el que tiene solución óptima no acotada. Entonces, existe una sucesión $\{x_n\}$ de soluciones factibles tales que $z_n=c^Tx_n \to \infty$. Pero por el teorema de dualidad débil, si existiera una solución factible $y$ de $\eqref{eq:dual}$, entonces se tendría
+\[
+ b^T y = z^\ast \geq z_n \to \infty,
+\]
+llegando a contradicción. El caso en el que es $\eqref{eq:dual}$ quien tiene solución óptima no acotada se trata de manera análoga.\qed\\
+
+\textit{[Nota: la referencia consultada para responder esta cuestión ha sido Bazaraa, Mokhtar S, Jarvis, John J, & Sherali, Hanif D. (2011). Linear programming and network flows (4th ed.). Chapter 6. Somerset: Wiley.]}
+
+%%%
+\newpage
+%%%
+
+\section*{Ejercicios}
+
+\textbf{Ejercicio 1.} \emph{Dado el siguiente conjunto poliédrico:}
+        \[
+        \begin{cases}
+          x_{1} - x_{2} &\leq 0,\\
+          x_{2} &\leq 2,\\
+          x_{1} &\geq 1,\\
+          x_{1}, x_{2} &\geq 0.
+          \end{cases}
+        \]
+\textbf{a)} \emph{Estandarízalo con las variables de holgura necesarias y especifica si la matriz \( B = \begin{pmatrix} a_{3} & a_{4} & a_{5} \end{pmatrix} \) proporciona una solución básica factible.}\\
+
+\textit{Solución}. Para poner el problema en forma estándar introducimos tres variables de holgura:
+        \[
+        \begin{cases}
+          x_{1} - x_{2} + x_3 &\leq 0,\\
+          x_{2} + x_4&\leq 2,\\
+          x_{1} - x_5&\geq 1,\\
+          x_{1}, x_{2}, x_3, x_4, x_5 &\geq 0.
+          \end{cases}
+        \]
+  Entonces, tenemos que
+  \[
+  A=\begin{pmatrix}
+            a_1 & a_2 & a_3 & a_4 & a_5
+        \end{pmatrix}=\begin{pmatrix}
+          1& -1 & 1 & 0 & 0\\
+          0 & 1 & 0 & 1 & 0\\
+          1 & 0 & 0 & 0 & -1
+      \end{pmatrix}, \quad b=\begin{pmatrix}
+        0\\ 2\\1
+    \end{pmatrix}.
+  \]
+
+  Vemos que la  matriz $B = \begin{pmatrix} a_{3} & a_{4} & a_{5} \end{pmatrix}$ es invertible:
+  \[
+B = \begin{pmatrix}
+  1&0&0\\
+  0&1&0\\
+  0&0&-1
+\end{pmatrix} \implies B^{-1}=\begin{pmatrix}
+  1&0&0\\
+  0&1&0\\
+  0&0&-1
+\end{pmatrix}.
+  \]
+
+Sabemos que en este caso $B$ es una matriz básica (correspondiente a una solución básica), pues es una matriz de orden $3$ invertible que surge al reordenar $A$ como $A=(B \ \ N)$. Si además las componentes básicas asociadas $x_B=B^{-1}b$ son todas no negativas, entonces $B$ corresponderá a una solución básica factible. Sin embargo, se tiene que
+  \[
+  B^{-1}b=\begin{pmatrix}
+  1&0&0\\
+  0&1&0\\
+  0&0&-1
+\end{pmatrix}\begin{pmatrix}
+        0\\ 2\\1
+    \end{pmatrix}=\begin{pmatrix}
+    0\\2\\-1
+  \end{pmatrix},
+  \]
+
+  luego como la tercera componente de $B^{-1}b$ es negativa, $B$ \textbf{no proporciona una solución básica factible}.\\
+
+\textbf{b)} \emph{Resuélvelo geométricamente para minimizar la función \( z = x_{1} - x_{2} \)}.\\
+
+\textit{Solución.} Para resolver el problema geométricamente, lo primero es dibujar los semiplanos que definen las restricciones. Para ello dibujamos las rectas (convirtiendo las desigualdades en igualdades), y elegimos un semiplano u otro en función de los puntos que cumplan la inecuación en cuestión. En este caso, la representación puede verse en la Figura \ref{fig:1}. La zona sombreada es la región factible, obtenida como intersección en el primer cuadrante de cada una de las subregiones definidas por las restricciones. Vemos que se trata de una región factible acotada, por lo que sabemos que alguno de los vértices o puntos extremos corresponderá con una SBF óptima. Es decir, los puntos candidatos a ser solución son $(1,1), (1,2)$ y $(2,2)$.
+
+\begin{figure}[h!]
+\centering
+\begin{tikzpicture}[scale=0.9]
+
+        \begin{axis}[axis on top,smooth,
+            axis line style=very thick,
+            axis x line=bottom,
+            axis y line=left,
+            ymin=0,ymax=4,xmin=0,xmax=4,
+            xlabel=$x_1$, ylabel=$x_2$,grid=major,
+            ]
+            %\addplot[fill=blue!10, draw=none] coordinates {(0, 3) (0, 0) (5, 0) (5, 5) (2, 5)};
+            %\addplot[fill=blue!10, draw=none] coordinates {(0,0) (3.2,0) (0,5)};
+            \addplot[fill=blue!10, draw=none, postaction={pattern=north east lines}] coordinates {(1,1.01) (1.98,1.98) (1,1.99)};
+
+  \addplot[name path global=firstline,ultra thick, domain=0:10, red]{x};
+
+  \addplot[only marks]
+    coordinates{ % plot 1 data set
+      (1,1)
+      (1, 2)
+      (2, 2)};
+        \end{axis}
+  \draw[ultra thick, green!50!black] (0, 2.85) -- (6.85, 2.85);
+\draw[ultra thick, yellow!90!black] (1.71, 0) -- (1.71, 5.7);
+\draw[line width=2pt,brown,-stealth](0,0)--(-1.4, 1.2) node[above]{$\bm{-c}$};
+%\node[red!70!black] at (0.75, 0.7) {\huge$R$};
+\end{tikzpicture}
+\caption{Representación geométrica del PPL.}
+\label{fig:1}
+\end{figure}
+
+Para resolver el problema, consideramos el gradiente de la función a minimizar, que viene representado por el vector de costes $c=(1, -1)^T$. Entonces, la solución óptima se alcanzará en el punto o puntos más lejano(s) de la región factible siguiendo la dirección de $-c$. Concretamente, trazando rectas perpendiculares a $-c$ y avanzando en la dirección de este último, vemos que la solución óptima en este caso es única y se alcanza en el punto $(x_1, x_2)=(1, 2)$, con valor óptimo $z=-1$.\\
+
+
+\textbf{Ejercicio 2}. \emph{Demostrar que dada \( f:S \to \mathbb{R}\) con \(S \subset \mathbb{R}^{n} \) no vacío y convexo, entonces \( f \) es cuasiconvexa si y solo si el conjunto \( S_{\alpha} = \{x \in S: \ f(x) \leq \alpha \} \) es convexo para cada \( \alpha \in \mathbb{R} \)}.\\
+
+\textit{Solución.} Probaremos ambas implicaciones.\\
+
+\boxed{$\Rightarrow$} En primer lugar, supongamos que $f$ es cuasiconvexa en $S$. Fijemos $\alpha\in \R$ cualquiera, y tomemos $\lambda\in (0,1)$ y $x,y\in S_\alpha$ arbitrarios. Entonces, por definición se tiene que $x,y \in S$, y como $f$ es cuasiconvexa:
+\[
+f(\lambda x + (1-\lambda)y) \leq \max\{f(x), f(y)\} \leq \alpha,
+\]
+donde la última desigualdad es consecuencia de que $x,y\in S_\alpha$. Por tanto, como $\lambda, x$ e $y$ eran arbitrarios, queda probado que $S_\alpha$ es un conjunto convexo. Como $\alpha$ también era arbitrario, hemos acabado.\\
+
+\boxed{$\Leftarrow$} Supongamos ahora que $S_\alpha$ es convexo para cualquier $\alpha\in\R$. Sean $x,y\in S$, y definimos $\alpha=\max\{f(x), f(y)\}$. Entonces, por definición $x,y\in S_{\alpha}$, y como estamos suponiendo que este es un conjunto convexo, para cualquier $\lambda \in (0,1)$ tenemos que $\lambda x + (1-\lambda)y\in S_\alpha$, es decir:
+\[
+f(\lambda x + (1-\lambda)y)\leq \alpha =\max\{f(x), f(y)\}.
+\]
+Como $x$ e $y$ eran arbitrarios, se tiene que $f$ es cuasiconvexa en $S$.\\
+
+ \textbf{Ejercicio 3.} \emph{Haciendo uso de la cuestión \( 3 \), demostrar que el siguiente problema carece de solución:}
+        \[
+        \max z=x_{3} \quad \text{sujeto a } \quad \begin{cases}
+          2x_{1}- x_{2} + x_{3} &\leq -1,\\
+          -x_{1} + 2x_{2} + x_{3} &\leq -1,\\
+          x_{1}, x_{2}, x_{3} &\geq 0.
+        \end{cases}
+        \]
+
+\textit{Solución.} Atendiendo a la definición que dimos en la cuestión 3, consideramos el problema dual asociado:
+\[
+\min z^\ast=-y_1-y_2 \quad \text{sujeto a } \quad \begin{cases}
+  2y_1-y_2&\geq 0,\\
+  -y_1+2y_2&\geq 0,\\
+   y_1+y_2&\geq 1,\\
+  y_1, y_2 &\geq 0.
+\end{cases}
+\]
+
+Si lo representamos geométricamente, vemos en la Figura \ref{fig:2} que tiene una región factible no acotada:
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.4\textwidth]{ex3}
+  \caption{Región factible (azul más oscuro) del PPL dual, junto a la recta $y_1=y_2$ (en rojo).}
+  \label{fig:2}
+\end{figure}
+
+
+
+Teniendo en cuenta las restricciones, es fácil comprobar que tenemos una sucesión de soluciones factibles $\{y^{(n)}=(n, n)^T\}_{n\geq 1}$. Sin embargo, está claro que $z_n^\ast=b^Ty^{(n)} = -2n\to-\infty$ cuando $n\to\infty$, luego el problema dual tiene solución óptima no acotada (el valor de la función objetivo puede decrecer indefinidamente). Por el corolario demostrado en la cuestión 3, necesariamente el problema primal carece de solución.
+
+\end{document}

@@ -1,0 +1,433 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{adjustbox}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[shortlabels]{enumitem}
+\usepackage{boldline}
+\usepackage{amssymb, amsmath}
+\usepackage{amsthm}
+\usepackage{subcaption}
+\usepackage[noend]{algpseudocode}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{upgreek}
+\usepackage[spanish, es-tabla]{babel}
+%\usepackage{ebgaramond}
+%\usepackage{stmaryrd}
+\usepackage{bm}
+\usepackage{cancel}
+%\usepackage{unicode-math}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{patterns}
+\usepackage{tikz}
+
+%\setmathfont{Libertinus Math}
+\decimalpoint
+
+\hypersetup{
+  linkcolor=magenta
+}
+
+% Meta
+\title{Ejercicios de Programación Lineal\\}
+\author{Antonio Coín Castro}
+\date{\today}
+
+% Custom
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\setlength\parindent{0pt}
+% Redefinir letra griega épsilon.
+\let\epsilon\upvarepsilon
+% Fracciones grandes
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+% Primera derivada parcial: \pder[f]{x}
+\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+
+\newcommand{\fx}{\frac{1}{\sqrt{2\pi}\sigma} e^{\frac{-(x-\mu)^2}{2\sigma^2}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\I}[1]{\mathbb{I}_{\{#1\}}}
+\providecommand{\p}{\mathbb{P}}
+
+\begin{document}
+\maketitle
+
+\section{Modelización y resolución gráfica. Matrices básicas}
+
+\textbf{Ejercicio 3. }\emph{Resolver geométricamente los problemas de programación lineal siguientes:}\\
+
+\textbf{a)} \emph{Minimizar \( z= x_{1} + x_{2} \), sujeto a}
+\[
+\begin{cases}
+  x_{1} + x_{2} &\leq 1,\\
+  4x_{1} + 2x_{2} &\geq 6,\\
+  x_{1}, x_{2} &\geq 0.
+\end{cases}
+\]
+
+\textit{Solución.} Para resolver el problema geométricamente dibujamos los semiplanos que definen las restricciones. Para ello dibujamos las rectas, y elegimos un semiplano u otro en función de los puntos que cumplan la restricción en cuestión. En este caso solo tenemos dos restricciones, por lo que la representación sería la siguiente:
+
+\begin{figure}[h!]
+\centering
+\begin{tikzpicture}[scale=0.9]
+        \begin{axis}[axis on top,smooth,
+            axis line style=very thick,
+            axis x line=bottom,
+            axis y line=left,
+            ymin=0,ymax=5,xmin=0,xmax=5,
+            xlabel=$x_1$, ylabel=$x_2$,grid=major,
+            ]
+            \addplot[fill=blue!10, draw=none] coordinates {(0,0) (1,0) (0,1)};
+            \addplot[fill=blue!10, draw=none] coordinates {(1.5,0) (5,0) (5,5) (0,5) (0,3)};
+            \addplot[name path global=firstline,very thick, domain=0:5, red]{1-x};
+            \addplot[name path global=secondline,very thick, domain=-0:5, green!50!black]{3-2*x};
+        \end{axis}
+\end{tikzpicture}
+\end{figure}
+
+Observamos que en este caso la intersección de las dos regiones definidas por cada una de las restricciones en el primer cuadrante es vacía, por lo que la región factible es vacía y \textbf{el problema no tiene solución}.\\
+
+\textbf{b)} \emph{Minimizar \( z = 2x_{1} + x_{2} \), sujeto a}
+\[
+\begin{cases}
+  x_{1} + x_{2} &\leq 2,\\
+  -x_{1} + x_{2} &\leq 3,\\
+  3x_{1} + 2x_{2} &\leq 10,\\
+  x_{1}, x_{2} &\geq 0.
+\end{cases}
+\]
+
+\textit{Solución.} Siguiendo el mismo procedimiento que en el apartado anterior, la representación obtenida es la siguiente:
+
+\newpage
+
+\begin{figure}[h!]
+\centering
+\begin{tikzpicture}[scale=0.9]
+        \begin{axis}[axis on top,smooth,
+            axis line style=very thick,
+            axis x line=bottom,
+            axis y line=left,
+            ymin=0,ymax=5,xmin=0,xmax=5,
+            xlabel=$x_1$, ylabel=$x_2$,grid=major,
+            ]
+            \addplot[fill=blue!10, draw=none] coordinates {(0, 3) (0, 0) (5, 0) (5, 5) (2, 5)};
+            \addplot[fill=blue!10, draw=none] coordinates {(0,0) (3.2,0) (0,5)};
+            \addplot[fill=blue!10, draw=none, postaction={pattern=north east lines}] coordinates {(0,0) (1.9,0) (0,2)};
+
+  \addplot[name path global=firstline,very thick, domain=0:10, red]{2-x};
+  \addplot[name path global=secondline,very thick, domain=-0:10, green!50!black]{3+x};
+  \addplot[name path global=thirdline,very thick, domain=-0:10, yellow!90!black]{5-1.5*x};
+  \addplot[only marks]
+    coordinates{ % plot 1 data set
+      (0,2)
+      (0, 0)
+      (2, 0)};
+        \end{axis}
+\draw[line width=2pt,brown,-stealth](0,0)--(-1.375, -0.575) node[above]{$\bm{-c}$};
+\node[red!70!black] at (0.75, 0.7) {\huge$R$};
+\end{tikzpicture}
+\end{figure}
+
+En este caso sí tenemos una región factible, que además es acotada. Sabemos entonces que la solución óptima se alcanza en la frontera del polígono que delimita la región factible (en particular, alguno de los vértices o puntos extremos corresponderá a una SBF óptima). Aquí los puntos extremos son $(0,0), (0,2)$ y $(2,0)$.\\
+
+Para resolver el problema, consideramos el gradiente de la función a minimizar, que viene representado por el vector de costes $c=(2, 1)^T$. Entonces, la solución óptima se alcanzará en el punto o puntos más lejano(s) de la región factible siguiendo la dirección de $-c$. Concretamente, trazando rectas perpendiculares a $-c$ y avanzando en la dirección de este último, vemos que la solución óptima en este caso es única y se alcanza en el punto $(x_1, x_2)=(0, 0)$, con valor óptimo $z=0$.\\
+
+\textbf{c)} \emph{Minimizar \( z = 2x_{1} + 5x_{2} \), sujeto a}
+\[
+\begin{cases}
+  x_{1} + x_{2} &\geq 4,\\
+  x_{1} &\geq 2,\\
+  x_{1}, x_{2} &\geq 0.
+\end{cases}
+\]
+
+\textit{Solución.} La representación gráfica es la siguiente:
+
+\begin{figure}[!h]
+\centering
+\begin{tikzpicture}[scale=0.9]
+        \begin{axis}[axis on top,smooth,
+            axis line style=very thick,
+            axis x line=bottom,
+            axis y line=left,
+            ymin=0,ymax=5,xmin=0,xmax=5,
+            xlabel=$x_1$, ylabel=$x_2$,grid=major,
+            ]
+            \addplot[fill=blue!10, draw=none] coordinates {(4, 0) (5, 0) (5, 5) (0, 5) (0, 4)};
+            \addplot[fill=blue!10, draw=none] coordinates {(2, 0) (4, 0) (2, 2)};
+            \addplot[fill=blue!10, draw=none, postaction={pattern=north east lines}] coordinates {(4, 0) (5, 0) (5, 5) (2, 50) (2, 2)};
+
+  \addplot[name path global=firstline,very thick, domain=0:10, red]{4-x};
+  \addplot[only marks]
+    coordinates{ % plot 1 data set
+      (2, 2)
+      (4, 0)};
+        \end{axis}
+\draw[line width=2pt,brown,-stealth](0,0)--(-0.6875,-1.4375) node[below]{$\bm{-c}$};
+\draw[very thick, green!50!black] (2.74, 0) -- (2.74, 5.7);
+\node[red!70!black] at (4.7, 2.9) {\huge$R$};
+\end{tikzpicture}
+\end{figure}
+
+Observamos que ahora tenemos una región factible no acotada. Sin embargo, la solución óptima vuelve a ser única (y finita), ya que siguiendo la dirección de $-c$ acabamos en este caso en la solución óptima dada por el punto extremo $(x_1, x_2)=(4, 0)$, con valor óptimo $z=2\cdot 4 + 5\cdot 0 = 8$. El otro punto extremo $(2, 2)$, que se calcula como la intersección entre la recta $x_1+x_2=4$ (roja) y la recta $x_1=2$ (verde), queda descartado, ya que la función objetivo decrece más rápidamente hacia abajo que hacia la izquierda, tal y como indica el vector $-c$.\\
+
+\textbf{Ejercicio 6.} \emph{Formalizar el modelo asociado al siguiente problema de programación lineal:}
+
+\begin{quote}
+\textit{Una compañia produce dos tipos de ratones para ordenador: láser e inerciales. El ratón láser necesita 2 horas para su fabricación y $1$ para su control de calidad, mientras que el segundo requiere $1$ hora para su fabricación y 3 para su control de calidad. El número de horas de fabricación disponibles durante la semana es de 200 y 300 horas para el control de calidad. Los costes de fabricación son de 30 y 20 unidades monetarias respectivamente para cada ratón. La compañia pretende optimizar el proceso productivo con el fin de maximizar sus beneficios.}
+\end{quote}
+
+\textit{Solución.} Sean $i_1$ e $i_2$ los ingresos en unidades monetarias que obtiene la compañía al vender cada uno de los dos tipos de ratón. Lo que pretendemos entonces es maximizar el beneficio, entendido como la diferencia entre ingresos y costes, teniendo en cuenta las restricciones temporales. Así, llamando $x_1$ y $x_2$ al número de ratones láser e inerciales fabricados, respectivamente, el PPL asociado sería:
+\begin{equation}\tag{P6}\label{eq:p6}
+  \max z = (i_1-30)x_{1} + (i_2-20)x_{2} \quad \text{sujeto a} \quad \begin{cases} 2x_{1} + x_{2} &\leq 200,\\ x_{1} + 3x_{2} &\leq 300,\\ x_{1}, x_{2} &\geq 0. \end{cases}
+\end{equation}
+
+\textbf{Ejercicio 8.} \emph{De las siguientes bases}
+\[
+  B_{1} = \begin{pmatrix} 2 & 0 \\ 1 & 1 \end{pmatrix},\quad  B_{2} = \begin{pmatrix} 1 & 0 \\ 3 & 1 \end{pmatrix}, \quad B_{3} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix},
+\]
+\emph{¿cuáles corresponden a soluciones básicas factibles del ejercicio 6?}.\\
+
+\textit{Solución.} En primer lugar, reescribimos el problema \eqref{eq:p6} en forma estándar, introduciendo dos variables de holgura para transformar las desigualdades en igualdades:
+\[
+  \max z = (i_1-30)x_{1} + (i_2-20)x_{2} \quad \text{sujeto a} \quad \begin{cases} 2x_{1} + x_{2} +x_3 &= 200,\\ x_{1} + 3x_{2} + x_4 &= 300,\\ x_{1}, x_{2}, x_3, x_4 &\geq 0. \end{cases}
+\]
+
+Atendiendo ahora a las restricciones, se pueden escribir en forma matricial como $Ax=b, x\geq 0$, donde:
+\[
+A=\begin{pmatrix}
+  2 & 1 & 1 & 0\\
+  1 & 3 & 0 & 1
+\end{pmatrix}, \quad b = \begin{pmatrix}
+  200\\300
+\end{pmatrix}, \quad x= (x_1 \ x_2 \ x_3 \ x_4)^T.
+\]
+
+Sabemos que en este caso una matriz básica $B$ (correspondiente a una solución básica) es cualquier matriz de orden $2$ invertible que surge al reordenar $A$ como $A=(B \ \ N)$. Si además las componentes básicas asociadas $x_B=B^{-1}b$ son todas no negativas, entonces $B$ corresponde a una solución básica factible de \eqref{eq:p6}. Analizamos los distintos casos:
+\begin{itemize}
+  \item $B_1$ es una matriz básica, ya que se forma a partir de la primera y cuarta columnas de $A$, y es invertible. Además, tenemos:
+  \[
+  x_{B_1}=B_1^{-1}b= \begin{pmatrix}
+    1/2 & 0\\
+    -1/2 & 1
+  \end{pmatrix}\begin{pmatrix}
+  200\\300
+\end{pmatrix} = \begin{pmatrix}
+100\\200
+\end{pmatrix}\geq 0,
+  \]
+por lo que $B_1$ \textbf{sí} corresponde a una solución básica factible.
+  \item $B_2$ es una matriz básica, ya que se forma a partir de la segunda y cuarta columnas de $A$, y es invertible. Sin embargo, se tiene que
+  \[
+  x_{B_2}=B_2^{-1}b= \begin{pmatrix}
+    1 & 0\\
+    -3 & 1
+  \end{pmatrix}\begin{pmatrix}
+  200\\300
+\end{pmatrix} = \begin{pmatrix}
+200\\-300
+\end{pmatrix}.
+  \]
+Como la segunda componente de $x_{B_2}$ es negativa, $B_2$ \textbf{no} corresponde a una solución básica factible.
+  \item $B_3$ es una matriz básica, ya que se forma a partir de la tercera y cuarta columnas de $A$, y es invertible. Se tiene:
+  \[
+  x_{B_3}=B_3^{-1}b= \begin{pmatrix}
+    1 & 0\\
+    0 & 1
+  \end{pmatrix}\begin{pmatrix}
+  200\\300
+\end{pmatrix} = \begin{pmatrix}
+200\\300
+\end{pmatrix}\geq 0,
+  \]
+  luego $B_3$ \textbf{sí} corresponde a una solución básica factible.
+\end{itemize}
+\section{Algoritmo Símplex. Método dos fases}
+
+\textbf{Ejercicio 10. } \emph{Dado el siguiente PPL, se pide:}
+\begin{equation}\tag{P$10$}\label{eq:p10}
+  \min z = x_{1} - 2x_{2} \quad \text{sujeto a} \quad \begin{cases} 3x_{1} + 4x_{2} &= 12,\\ 2x_{1} - x_{2} &\leq 12,\\ x_{1}, x_{2} &\geq 0. \end{cases}
+\end{equation}
+\textbf{a)} \emph{Plantear el PPL en forma estándar.}\\
+
+\textit{Solución.} Añadimos una variable de holgura:
+
+\begin{equation}\tag{P$10s$}\label{eq:p10s}
+  \min z = x_{1} - 2x_{2} \quad \text{sujeto a} \quad \begin{cases} 3x_{1} + 4x_{2} &= 12,\\ 2x_{1} - x_{2} + x_3 &= 12,\\ x_{1}, x_{2}, x_3 &\geq 0. \end{cases}
+\end{equation}
+
+\textbf{b)} \emph{Resolver geométricamente. Expresar la región factible, el vector de costes, la función objetivo, los puntos extremos y sus coordenadas, el punto o puntos solución y el valor óptimo en el/los mismo/s}.\\
+
+\textit{Solución.} El vector de costes es $c=(1, -2)^T$, mientras que la función objetivo que se pretende minimizar es $f(x)=f(x_1, x_2) = c^Tx=x_1-2x_2$. Por otro lado, la región factible viene representada en la Figura \ref{fig:factible-10}. En este caso se trata de la semirrecta $3x_1+4x_2=12$ en el primer cuadrante, resultado de la intersección de las subregiones factibles dadas por las restricciones. También representamos el vector $-c$ y las curvas de nivel de la función $f$ (en gris y discontinuas).\\
+
+Observamos que los puntos extremos son los puntos de corte de la recta que define la región factible con los ejes coordenados, es decir, $(0, 3)$ y $(4, 0)$. Si avanzamos en la dirección de máximo descenso (la que viene dada por el vector $-c$), vemos claramente que la solución óptima es única y finita, y se alcanza en el punto $(0, 3)$. El valor de la función objetivo en este punto es $z=0 - 2\cdot 3=-6$.\\
+
+\begin{figure}[!h]
+\centering
+\begin{tikzpicture}
+        \begin{axis}[axis on top,smooth,
+            axis line style=very thick,
+            axis x line=middle,
+            axis y line=middle,
+            ymin=-2,ymax=10,xmin=-2,xmax=10,
+            xlabel=$x_1$, ylabel=$x_2$,grid=none,
+            ]
+            \addplot[fill=blue!10, draw=none] coordinates {(6, 0) (10, 8) (10, 10) (0, 500) (0, 0)};
+    \addplot[very thick, domain=0:10, green!50!black]{2*x-12};
+  \addplot[ultra thick, domain=0:4, red, dashed]{3-0.75*x};
+    \addplot[very thick, domain=4:10, red]{3-0.75*x};
+      \addplot[very thick, domain=-10:0, red]{3-0.75*x};
+
+      \addplot[thick, domain=-10:10, dashed, gray]{0.5*(x-4)};
+      \addplot[thick, domain=-2:10, dashed, gray]{0.5*(x-0)};
+      \addplot[thick, domain=-2:10, dashed, gray]{0.5*(x+4)};
+      \addplot[thick, domain=-2:10, dashed, gray]{0.5*(x+8)};
+            \addplot[thick, domain=-2:10, dashed, gray]{0.5*(x+12)};
+                        \addplot[thick, domain=-2:10, dashed, gray]{0.5*(x+16)};
+    \addplot[only marks]
+    coordinates{ % plot 1 data set
+      (0, 3)
+      (4, 0)};
+      \addplot [-stealth, ultra thick, brown] coordinates {(0, 0) (-1, 2)} node[above] {$\bm{-c}$};
+        \end{axis}
+\node[red!70!black] at (3.1, 3.1) {\huge$R$};
+\draw[thick, -stealth] (2.75,2.75)--(2, 2);
+\end{tikzpicture}
+\caption{Resolución gráfica del PPL \eqref{eq:p10}.}
+\label{fig:factible-10}
+\end{figure}
+
+
+
+\textbf{c)} \emph{Resuélvelo aplicando el algoritmo símplex algebraico a la SBF inicial dada por la submatriz básica \( B = (a_{2} \ \ a_{3})\). Debes indicar la solución y el valor objetivo óptimo, justificando por qué lo son.}\\
+
+\textit{Solución.} Las restricciones del problema en forma estándar \eqref{eq:p10s} se pueden expresar como $Ax=b$, $x\geq 0$, donde
+\[
+A=(a_1 \ a_2 \ a_3)=\begin{pmatrix}
+  3 & 4 & 0\\
+  2 & -1 & 1
+\end{pmatrix}, \quad b=\begin{pmatrix}
+  12\\12
+\end{pmatrix}, \quad x=(x_1 \ x_2 \ x_3)^T.
+\]
+
+A la vista de esto, los elementos básicos de partida son:
+\[
+B=(a_2 \ a_3)=\begin{pmatrix}
+  4 & 0\\
+  -1 & 1
+\end{pmatrix}, \quad
+B^{-1}=\begin{pmatrix}
+1/4 & 0\\
+1/4 & 1
+\end{pmatrix}, \quad c_B = (-2, 0)^T.
+\]
+Comenzamos la primera iteración calculando los valores de $z_1-c_1$, la única variable no básica:
+\[
+z_1-c_1=c_BB^{-1}a_1 - c_1 = -3/2 - 1 = -5/2 < 0.
+\]
+
+Como $z_1-c_1 \leq 0$ y es la única variable no básica, el algoritmo ha finalizado, y la solución que tenemos actualmente es óptima. Sabemos que $x_1=0$ ya que ha finalizado como variable no básica, y sabemos que $x_2$ es la primera componente de $x_B$:
+\[
+x_B = \begin{pmatrix}
+  x_2\\x_3
+\end{pmatrix}=B^{-1}b=\begin{pmatrix}
+1/4 & 0\\
+1/4 & 1
+\end{pmatrix}\begin{pmatrix}
+  12\\12
+\end{pmatrix}=\begin{pmatrix}
+  3\\15
+\end{pmatrix}.
+\]
+
+Por tanto, la solución óptima al problema es $(x_1,x_2)=(0, 3)$, con valor óptimo \[z=c_BB^{-1}b=\begin{pmatrix}
+  -2 & 0
+\end{pmatrix}\begin{pmatrix}
+  3\\15
+\end{pmatrix}=-6.\]
+
+\textbf{Ejercicio 11.} \emph{Resolver por el método de las dos fases el PPL correspondiente al ejercicio $10$.}\\
+
+\textit{Solución.} Comenzamos con la fase I para encontrar una SBF inicial. En primer lugar, partiendo de \eqref{eq:p10s} añadimos la variable artificial $x_4$ a la primera restricción, de forma que obtenemos las columnas de la matriz identidad (cuarta y tercera columna de la nueva matriz $A$). Así, el problema de minimización para la fase I queda como sigue:
+\[
+  \min z = x_4 \quad \text{sujeto a} \quad \begin{cases} 3x_{1} + 4x_{2} + x_4 &= 12,\\ 2x_{1} - x_{2} + x_3 &= 12,\\ x_{1}, x_{2}, x_3, x_4 &\geq 0 \end{cases} \quad \implies A =(a_1 \ a_2 \ a_3 \ a_4)=\begin{pmatrix}
+  3 & 4 & 0 & 1\\
+  2 & -1 & 1 & 0
+\end{pmatrix}.
+\]
+
+\newpage
+A continuación mostramos la tabla correspondiente a este problema, partiendo de la SBF inicial dada por $B=(a_4 \ a_3)$, con $B^{-1}=I$. Además de la fila inicial con los valores de la fase I, arrastraremos también una fila extra con los valores de la fase II, de forma que al eliminar las variables artificiales (si podemos), la tabla quedará en forma correcta para proseguir.
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|cccc|c}
+    & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $z$\\
+    \hline
+    I & 0 & 0 & 0 & -1 & 0\\
+    \hline
+    II & -1 & 2 & 0 & 0 & 0\\
+    \hline
+    $x_4$ & 3 & 4 & 0 & 1 & 12\\
+    $x_3$ & 2 & -1 & 1 & 0 & 12
+  \end{tabular}
+\end{table}
+
+Antes de comenzar debemos hacer ceros en las variables básicas de la primera fila. Para ello, sumamos a la primera fila la fila correspondiente a $x_4$:
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|cccc|c}
+    & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $z$\\
+    \hline
+    I & 3 & 4 & 0 & 0 & 12\\
+    \hline
+    II & -1 & 2 & 0 & 0 & 0\\
+    \hline
+    $x_4$ & 3 & {\color{red}4} & 0 & 1 & 12\\
+    $x_3$ & 2 & -1 & 1 & 0 & 12
+  \end{tabular}
+\end{table}
+
+Pivotamos sobre el elemento $a_{42}$, de forma que $x_2$ entra en la base y $x_4$ sale, obteniendo:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|cccc|c}
+    & $x_1$ & $x_2$ & $x_3$ & $x_4$ & $z$\\
+    \hline
+    I & 0 & 0 & 0 & -1 & 0\\
+    \hline
+    II & -5/2 & 0 & 0 & -1/2 & -6\\
+    \hline
+    $x_2$ & 3/4 & 1 & 0 & 1/4 & 3\\
+    $x_3$ & 11/4 & 0 & 1 & 1/4 & 15
+  \end{tabular}
+\end{table}
+
+Ya no quedan elementos positivos en la primera fila, por lo que hemos acabado la fase I. Como hemos conseguido que la variable artificial $x_4$ salga de la base (valor $0$), podemos eliminarla de la tabla y proseguir a la fase II con la SBF inicial encontrada $(x_1, x_2)=(0, 3)$, asociada a la matriz básica $B=(a_2 \ a_3)$:
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{c|ccc|c}
+    & $x_1$ & $x_2$ & $x_3$ & $z$\\
+    \hline
+    II & -5/2 & 0 & 0 & {\color{blue}-6}\\
+    \hline
+    $x_2$ & 3/4 & 1 & 0 & {\color{blue}3}\\
+    $x_3$ & 11/4 & 0 & 1 & 15
+  \end{tabular}
+\end{table}
+
+Como ya directamente no hay elementos positivos en la primera fila, el algoritmo ha terminado, y hemos encontrado la solución óptima $(x_1, x_2)=(0, 3)$, con valor óptimo $z=-6$ (recordemos que $x_1$ es no básica). Vemos que, como esperábamos, coincide con la solución obtenida por el método algebraico en el apartado anterior.
+\end{document}

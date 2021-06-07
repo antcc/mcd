@@ -1,0 +1,6 @@
+Se proporciona el cuaderno de Jupyter ejecutado donde se ha realizado la práctica,
+así como una versión compilada en HTML para su visualización. También se adjunta
+un fichero de Python con funciones auxiliares.
+
+Por otro lado, se adjuntan los datos concretos con los que se ha trabajado,
+junto con los resultados de métricas devueltos por treceval y ndeval.

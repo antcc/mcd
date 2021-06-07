@@ -1,0 +1,819 @@
+#ip	system	qid	qtext	rank_clicked	url
+150.244.199.99	duckduckgo	2	mejores recetas thermomix	2	https://www.directoalpaladar.com/recetas-con-thermomix/15-mejores-recetas-thermomix-nuestros-expertos
+150.244.199.121	google	3	es la leche con cereales una sopa	5	https://www.reddit.com/r/vzla/comments/hm939o/lunes_6_de_abril_de_2020_el_cereal_es_una_sopa/
+150.244.199.121	google	3	es la leche con cereales una sopa	8	https://www.chilecomedia.com/faq/el-cereal-con-leche-puede-ser-considerado-una-sopa/
+150.244.199.158	google+bing	5	Ingredientes tartaletas mercadona	1	https://es.openfoodfacts.org/producto/8481772701166/tartaletas-mini-confiletas
+150.244.199.121	google	3	es la leche con cereales una sopa	1	https://qastack.mx/cooking/76084/is-cereal-a-soup
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	1	https://sacandodebanda.com/2019/10/16/salarios-clausulas-futbol-sala/
+150.244.199.121	duckduckgo	7	esta colmenar viejo confinado	2	https://www.elmundo.es/madrid/2021/02/15/602a556d21efa0c02f8b4648.html
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	2	#
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	3	https://www.saberia.com/cuanto-cobra-un-jugador-de-futbol-sala/
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	4	https://www.merca2.es/sueldos-jugadores-futbol-sala/6/
+150.244.199.99	duckduckgo	2	mejores recetas thermomix	3	https://www.directoalpaladar.com/directo-al-paladar/las-mejores-recetas-de-thermomix-con-velocidad-cuchara
+150.244.199.162	google+bing	11	figure editor online latex	5	https://www.mathcha.io/
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	5	https://www.merca2.es/sueldos-jugadores-futbol-sala/
+150.244.199.144	google	14	how to exit vim	2	https://phoenixnap.com/kb/how-to-exit-vim
+150.244.199.236	duckduckgo	9	nonparametric regression in functional data analysis	2	https://arxiv.org/pdf/math/0603084.pdf
+150.244.199.158	ask	17	Ingredientes tartaletas mercadona	1	https://es.openfoodfacts.org/producto/8481772701166/tartaletas-mini-confiletas
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	6	https://www.futsalcorner.es/la-columna/cifras-numeros-futsal/
+150.244.199.144	google	14	how to exit vim	3	https://stackoverflow.com/questions/11828270/how-do-i-exit-the-vim-editor
+150.244.199.10	google+bing	18	covid	1	https://cnecovid.isciii.es/covid19/
+150.244.199.119	google	13	pokemon first generation damage formula	4	https://pokemon.fandom.com/wiki/Damage_Calculation
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	7	https://cuanto.top/gana/jugador-futbol-sala/
+150.244.199.144	google	14	how to exit vim	6	https://dev.to/jeremy/how-to-exit-vim-11dm
+150.244.199.133	ask	22	einstein field equations	1	https://es.wikipedia.org/wiki/Ecuaciones_del_campo_de_Einstein
+150.244.199.99	google+bing	20	ogor mawtribes best lists	1	https://aosshorts.com/top-mawtribes-lists/
+150.244.199.133	ask	22	einstein field equations	2	https://en.wikipedia.org/wiki/Einstein_field_equations
+150.244.199.192	duckduckgo	12	restricciones madrid primera semana de febrero	5	https://www.abc.es/espana/madrid/abci-claves-futuro-madrid-desde-este-semana-restricciones-barrios-o-toque-queda-202010211040_noticia.html
+150.244.199.163	google	24	tribu himba españa	1	https://www.20minutos.es/noticia/866758/0/perdidos/tribu/espana/
+150.244.199.158	google+bing	23	Gargantua	1	https://es.wikipedia.org/wiki/Gargant%C3%BAa
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	10	https://futboljobs.com/blog/quieres-saber-cual-es-el-sueldo-minimo-de-un-jugador-de-segunda-division/
+150.244.199.10	google+bing	18	covid	3	https://www.lavanguardia.com/vida/20210224/6258863/coronavirus-espana-restricciones-vacunacion-pedro-sanchez-contagios-fallecidos-tercera-ola-ultimas-noticias-hoy-en-directo.html
+150.244.199.56	google+bing	25	mejores jugadores de curling de españa	2	https://www.hammerspain.es/2018/06/10/mikel-unanue-y-oihane-otaegi-mejores-jugadores-de-la-temporada-2017-2018/
+150.244.199.158	google+bing	23	Gargantua	3	http://www.bilbaopedia.info/gargantua
+150.244.199.182	google+bing	28	f1 sprint race format	2	#
+150.244.199.158	google+bing	23	Gargantua	6	https://www.acantilado.es/catalogo/gargantua-y-pantagruel/
+150.244.199.163	google	24	tribu himba españa	2	https://es.wikipedia.org/wiki/Perdidos_en_la_ciudad
+150.244.199.72	google	6	cuánto cobra un jugador profesional de fútbol sala	11	https://www.forocoches.com/foro/showthread.php?t=2757667
+150.244.199.144	google	14	how to exit vim	7	https://itsfoss.com/how-to-exit-vim/
+150.244.199.133	ask	22	einstein field equations	3	https://www.youtube.com/watch?v=foRPKAKZWx8
+150.244.199.182	google	27	f1 sprint race format	1	https://www.essentiallysports.com/f1-news-everything-you-need-to-know-about-the-sprint-race-format-and-f1s-plan-of-implementation/
+150.244.199.133	ask	22	einstein field equations	4	https://warwick.ac.uk/fac/sci/physics/intranet/pendulum/generalrelativity/
+150.244.199.10	google+bing	18	covid	7	https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019
+150.244.199.56	google+bing	25	mejores jugadores de curling de españa	3	https://www.eurosport.es/curling/premios-a-los-mejores-jugadores-del-curling-espanol_sto5178490/story.shtml
+150.244.199.236	duckduckgo	9	nonparametric regression in functional data analysis	7	https://socialsciences.mcmaster.ca/jfox/Books/Companion/appendices/Appendix-Nonparametric-Regression.pdf
+150.244.199.163	google	24	tribu himba españa	2	https://es.wikipedia.org/wiki/Perdidos_en_la_ciudad
+150.244.199.119	google	13	pokemon first generation damage formula	1	https://bulbapedia.bulbagarden.net/wiki/Damage
+150.244.199.133	ask	22	einstein field equations	5	http://www.scholarpedia.org/article/Exact_solutions_of_Einstein%27s_equations
+150.244.199.10	google+bing	18	covid	9	https://www.redaccionmedica.com/directo/coronavirus-ultimas-noticias/20200410
+150.244.199.56	google+bing	25	mejores jugadores de curling de españa	4	https://www.pirinews.es/los-mejores-jugadores-de-curling-de-espana-competiran-este-fin-de-semana-en-jaca/
+150.244.199.100	duckduckgo	36	Espionaje con delfines	1	https://actualidad.rt.com/actualidad/183582-hamas-captura-delfin-espia-israeli
+150.244.199.10	google+bing	18	covid	4	https://twitter.com/ComunidadMadrid?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+150.244.199.192	duckduckgo	12	restricciones madrid primera semana de febrero	11	https://elpais.com/espana/madrid/2021-01-20/buscador-por-calles-esta-es-la-incidencia-en-las-zonas-basicas-y-en-los-municipios-de-la-comunidad-de-madrid.html
+37.10.149.120	duckduckgo	38	Vacunación españa	5	https://www.elmundo.es/ciencia-y-salud/salud/2021/01/29/60141474fc6c834e268b4666.html
+150.244.199.10	google+bing	18	covid	4	https://twitter.com/ComunidadMadrid?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+150.244.199.158	google	42	Alejandro Cabana	1	https://es.linkedin.com/in/alejandro-cabana
+150.244.199.144	google	14	how to exit vim	9	https://www.cyberciti.biz/faq/linux-unix-exit-vim-editor/
+150.244.199.192	duckduckgo	12	restricciones madrid primera semana de febrero	13	https://www.msn.com/es-es/noticias/espana/madrid-ampl%C3%ADa-este-viernes-las-restricciones-en-barrios-para-afrontar-semanas-duras/ar-BB19p9H9
+150.244.199.72	ask	41	mejor jugador de petanca del mundo	1	https://www.elespanol.com/deportes/otros-deportes/20190511/manuel-romero-no-petanca-espana-no-dinero/397710742_0.html
+150.244.199.182	google	27	f1 sprint race format	3	https://www.formula1.com/en/latest/article.broad-support-from-f1-teams-for-new-sprint-race-format-at-some-races.7o0u5or8wIxY62OgYYjtcY.html
+150.244.199.133	ask	22	einstein field equations	6	https://www.sciencedirect.com/topics/physics-and-astronomy/einstein-field-equations
+150.244.199.100	duckduckgo	36	Espionaje con delfines	10	https://www.bbc.com/mundo/noticias-internacional-48098550
+150.244.199.236	google+bing	45	algorithm for non parametric regression "functional data""	2	https://www.researchgate.net/publication/230531517_Nonparametric_regression_on_functional_data_Inference_and_practical_aspects
+150.244.199.163	google	46	cb cuenca femenino	2	https://www.cbcuencafemenino.com/
+195.135.248.133	duckduckgo	47	por que el te matcha sabe a pescado	3	https://www.teasenz.com/es/te-chino/te-huele-a-pescado.html
+150.244.199.144	google	14	how to exit vim	11	https://hashrocket.com/blog/posts/how-to-quit-vim
+150.244.199.243	google+bing	44	que es peor la cerveza o la coca cola	2	https://es.quora.com/Qu%C3%A9-es-peor-para-tu-salud-La-Coca-Cola-o-la-cerveza
+150.244.199.158	google	42	Alejandro Cabana	4	https://www.instagram.com/cabanaalejandro/?hl=es
+95.127.170.164	duckduckgo	49	Batalla de rocroi 	1	https://es.wikipedia.org/wiki/Batalla_de_Rocroi
+150.244.199.56	ask	50	weather today	1	https://www.reference.com/science/seven-weather-elements-7471c4c1cafc02b3?ad=dirN&qo=serpIndex&o=740005
+150.244.199.162	duckduckgo	51	coronavirus madrid incidencia 24 febrero	1	https://www.antena3.com/noticias/espana/nuevas-restricciones-confinamientos-horario-toque-queda-comunidad-hoy-miercoles-24-febrero_2021022360358095c092770001dd61a1.html
+195.135.248.133	duckduckgo	47	por que el te matcha sabe a pescado	4	https://elclubdelte.com/te-matcha-propiedades-beneficios-se-usa/
+176.83.89.89	google	53	kg&tlw	1	https://kinggizzardandthelizardwizard.com/
+150.244.199.10	duckduckgo	54	como enriquecer uranio	1	https://es.wikihow.com/enriquecer-uranio
+150.244.199.56	bing	56	weather today madrid	1	https://weather.com/weather/today/l/Madrid+Madrid+Spain?canonicalCityId=012919d8c91328c62aa3e2143536637976b9cdd921055ac65e4aa0cfb2209fbf
+150.244.199.32	duckduckgo	48	applications of game theory	2	https://www.investopedia.com/terms/g/gametheory.asp
+176.83.89.89	google	53	kg&tlw	2	https://www.reddit.com/r/KingGizzard/comments/iyfsmb/where_do_i_start_with_kgtlw/
+150.244.199.10	duckduckgo	54	como enriquecer uranio	2	https://es.wikipedia.org/wiki/Enriquecimiento_de_uranio
+150.244.199.133	ask	22	einstein field equations	7	https://www.diva-portal.org/smash/get/diva2:566736/FULLTEXT01.pdf
+150.244.199.158	google	42	Alejandro Cabana	5	https://www.youtube.com/channel/UCdAX_8XS0Cm7RsQwE0tRuUw
+150.244.199.192	duckduckgo	12	restricciones madrid primera semana de febrero	10	https://www.infobae.com/sociedad/2021/02/23/coronavirus-levantaran-las-restricciones-nocturnas-en-la-provincia-de-buenos-aires/
+150.244.199.72	ask	41	mejor jugador de petanca del mundo	2	https://www.elperiodicodearagon.com/noticias/la-contra/jesus-escacho-en-francia-hay-jugadores-ganan-100-000-euros-ano_1413708.html
+150.244.199.133	ask	22	einstein field equations	8	https://arxiv.org/pdf/1608.05752
+150.244.199.144	google	57	twitter temporal series analysis	2	https://www.oreilly.com/library/view/mastering-social-media/9781783552016/ch02s06.html
+150.244.199.182	google	27	f1 sprint race format	7	https://www.racefans.net/2021/02/09/f1-wants-to-trial-sprint-races-and-friday-qualifying-at-three-rounds-in-2021/
+176.83.89.89	google	53	kg&tlw	4	https://www.amazon.com/-/es/gp/customer-reviews/R3QRV5AV1B4U2F?ASIN=B08LFZZ3Z7
+195.135.248.133	duckduckgo	47	por que el te matcha sabe a pescado	6	https://www.eluniversal.com.mx/menu/que-es-el-matcha-y-cuales-son-sus-beneficios
+176.83.89.89	google	53	kg&tlw	5	https://www.behance.net/search/projects?search=kg%26tlw
+150.244.199.137	ask	58	mejores procesadores 2020	1	https://www.geektopia.es/es/technology/2013/05/08/noticias/los-mejores-procesadores-para-jugar-por-rango-de-precio-mayo-2013.html
+95.127.170.164	google+bing	59	Bajas en la segunda guerra mundial 	6	http://www.historiasiglo20.org/ESTADIS/muertos1939-1945.htm
+150.244.199.144	google	57	twitter temporal series analysis	3	http://ieeexplore.ieee.org/document/7738815
+150.244.199.162	duckduckgo	51	coronavirus madrid incidencia 24 febrero	3	https://www.telemadrid.es/coronavirus-covid-19/Moncloa-Aravaca-distrito-capital-incidencia-coronavirus-0-2316968318--20210223074318.html
+150.244.199.10	duckduckgo	54	como enriquecer uranio	3	https://answers.yahoo.com/question/index?qid=20110301164930AAJoYP2
+150.244.199.236	google	64	schwartz pick interpolation	1	https://en.wikipedia.org/wiki/Nevanlinna%E2%80%93Pick_interpolation
+37.10.149.120	google+bing	60	Vacunación españa porcentaje	1	https://www.abc.es/sociedad/abci-vacunacion-espana-vacunas-coronavirus-datos-nsv-202102171044_noticia.html
+150.244.199.144	google	63	twitter hashtag time series analysis	3	https://towardsdatascience.com/twitter-trends-analysis-using-python-fc78146f2f72
+150.244.199.192	duckduckgo	12	restricciones madrid primera semana de febrero	22	https://www.esmadrid.com/que-hacer-semana-madrid
+150.244.199.121	google+bing	65	borzdynski	1	https://es.linkedin.com/in/%C3%B3scar-g%C3%B3mez-borzdynski-198138114
+195.135.248.133	duckduckgo	47	por que el te matcha sabe a pescado	9	https://www.milenio.com/estilo/gastronomia/que-es-el-matcha-y-por-que-es-tan-especial
+150.244.199.56	google	61	qué dia es el cambio de hora	3	https://www.elperiodico.com/es/sociedad/20210203/cambio-hora-marzo-2021-7368071
+150.244.199.154	google+bing	67	everything is ok jose luis	1	https://twitter.com/madridreigns/status/1090719700672266240
+150.244.199.119	google	13	pokemon first generation damage formula	2	https://bulbapedia.bulbagarden.net/wiki/User:FIQ/Damage_calculation
+150.244.199.158	google	68	Alvaro sosa	1	https://www.instagram.com/alvarososac/?hl=es
+150.244.199.243	google+bing	44	que es peor la cerveza o la coca cola	7	https://www.forocoches.com/foro/showthread.php?t=6910805
+95.127.170.164	google+bing	69	Blas de lezo 	4	https://www.todoababor.es/historia/blas-de-lezo-biografia-defensor-cartagena-de-indias/
+150.244.199.121	google+bing	65	borzdynski	2	https://www.linkedin.com/in/oscargomezborz
+150.244.199.72	ask	41	mejor jugador de petanca del mundo	5	https://www.elperiodico.com/es/barcelona/20160714/petanca-jovenes-messi-5267716
+150.244.199.154	google+bing	67	everything is ok jose luis	2	https://www.marca.com/futbol/real-madrid/2019/01/15/5c3de677e2704ea9b08b4583.html
+176.83.89.89	google+bing	70	Tekken 7 how to ki charge	2	https://www.reddit.com/r/Tekken/comments/9oib7g/ki_charge_execution_help/
+150.244.199.162	duckduckgo	71	daft punk 	4	https://www.nytimes.com/2021/02/22/arts/music/daft-punk-breakup.html
+150.244.199.163	google	46	cb cuenca femenino	3	https://www.gigantes.com/tema/cb-cuenca-femenino/
+176.83.89.89	google+bing	70	Tekken 7 how to ki charge	3	https://steamcommunity.com/app/389730/discussions/0/1743353798877608225/
+150.244.199.119	google	13	pokemon first generation damage formula	5	https://www.math.miami.edu/~jam/azure/compendium/battdam.htm
+150.244.199.121	google+bing	65	borzdynski	5	https://www.tusclasesparticulares.com/profesores/oscar-gomez-borzdynski.htm
+150.244.199.133	ask	22	einstein field equations	9	https://mathworld.wolfram.com/EinsteinFieldEquations.html
+150.244.199.10	duckduckgo	73	batman begins	1	https://en.wikipedia.org/wiki/Batman_Begins
+150.244.199.154	google+bing	67	everything is ok jose luis	3	https://www.forocoches.com/foro/showthread.php?t=7000580
+95.127.170.164	google+bing	74	Alvaro de Bazán 	1	https://es.wikipedia.org/wiki/%C3%81lvaro_de_Baz%C3%A1n
+150.244.199.72	ask	41	mejor jugador de petanca del mundo	6	https://prezi.com/sgdkipmsrny3/los-mejores-jugadores-de-petanca-a-nivel-mundial/
+150.244.199.100	duckduckgo	72	Mejor portátil por 600 euros	3	https://www.guiahardware.es/mejores-portatiles-por-menos-de-600-euros/
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	1	https://www.xataka.com/entrevistas/ia-permitira-robots-roomba-entender-nuestros-hogares-no-diez-anos-christian-cerda-coo-irobot
+150.244.199.154	google+bing	67	everything is ok jose luis	4	https://spainsnews.com/real-madrid-var-all-ok-jos-luis-go-ahead-the-phrase-that-keeps-the-indignation-of-real-madrid/
+150.244.199.163	google	46	cb cuenca femenino	4	https://www.youtube.com/channel/UC5FQaewl2dVba97DeFuIEew
+150.244.199.137	ask	58	mejores procesadores 2020	2	https://www.profesionalreview.com/hardware/mejores-procesadores/
+195.135.248.133	google+bing	81	como hacer porra antequerana	1	https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/como-hacer-porra-antequerana-receta-tradicional-malaguena
+150.244.199.121	google+bing	65	borzdynski	6	https://www.ancestry.com/name-origin?surname=borzdynski
+150.244.199.10	duckduckgo	86	clases en python	1	https://docs.python.org/es/3/tutorial/classes.html
+150.244.199.192	duckduckgo	83	estadisticas campazzo nba	2	https://www.youtube.com/watch?v=mzYphyImmf0
+150.244.199.236	google	85	depth meassures in banach space	2	https://arxiv.org/abs/1803.03627
+150.244.199.158	google+bing	87	Ratón blanco	1	https://www.amazon.es/Ratones-Blanco-Teclados-perif%C3%A9ricos-entrada/s?rh=n%3A937890031%2Cp_n_feature_keywords_two_browse-bin%3A5103723031
+150.244.199.154	ask	89	real madrid atalanta	1	https://www.marca.com/futbol/champions-league/2021/02/24/60356675e2704ee7198b45fa.html
+150.244.199.72	duckduckgo	92	convocatoria real madrid atalanta	1	https://www.realmadrid.com/noticias/2021/02/22/los-19-convocados-para-el-encuentro-frente-al-atalanta
+150.244.199.158	google+bing	87	Ratón blanco	2	https://www.amazon.es/raton-inalambrico-blanco/s?k=raton+inalambrico+blanco
+150.244.199.56	ask	94	aws lambda vpc s3	1	https://aws.amazon.com/blogs/aws/new-access-resources-in-a-vpc-from-your-lambda-functions/
+150.244.199.158	google+bing	87	Ratón blanco	2	https://www.amazon.es/raton-inalambrico-blanco/s?k=raton+inalambrico+blanco
+150.244.199.133	ask	22	einstein field equations	10	https://physicstoday.scitation.org/doi/10.1063/PT.3.2979
+150.244.199.243	google+bing	44	que es peor la cerveza o la coca cola	9	https://www.fuentesaludable.com/que-causa-mas-dano-la-coca-cola-o-la-cerveza/
+95.127.170.164	duckduckgo	96	Algoritmo más útil del mundo	1	https://pijamasurf.com/2014/06/10-algoritmos-que-dominan-nuestro-mundo/
+150.244.199.158	google+bing	87	Ratón blanco	2	https://www.amazon.es/raton-inalambrico-blanco/s?k=raton+inalambrico+blanco
+150.244.199.144	google	63	twitter hashtag time series analysis	5	https://github.com/twitterdev/Gnip-Trend-Detection
+150.244.199.182	duckduckgo	93	partidos champions league	2	https://es.uefa.com/uefachampionsleague/fixtures-results/format/
+150.244.199.72	duckduckgo	92	convocatoria real madrid atalanta	2	https://www.fichajes.com/a1731124217698795204-real-madrid-la-convocatoria-ante-el-atalanta
+150.244.199.158	google+bing	87	Ratón blanco	3	https://www.efeminista.com/raton-blanco-espia-buscada-por-nazis/
+150.244.199.154	ask	89	real madrid atalanta	2	https://www.marca.com/futbol/liga-italiana/2021/02/23/60355fc946163f2c8f8b45cc.html
+150.244.199.137	ask	58	mejores procesadores 2020	6	https://es.digitaltrends.com/computadoras/mejores-procesadores/
+150.244.199.119	google	13	pokemon first generation damage formula	6	https://www.serebii.net/games/damage.shtml
+176.83.89.89	google	97	Battle of sekigahara	1	https://es.wikipedia.org/wiki/Batalla_de_Sekigahara
+150.244.199.192	duckduckgo	83	estadisticas campazzo nba	8	https://as.com/baloncesto/2021/02/24/nba/1614152418_014857.html
+150.244.199.163	google	46	cb cuenca femenino	9	http://eldeporteconquense.com/noticias/baloncesto-noticias/2021/01/27/el-cb-cuenca-femenino-no-jugara-las-siguientes-dos-jornadas-al-trasladarlas-la-fbclm/
+176.83.89.89	google	97	Battle of sekigahara	2	https://en.wikipedia.org/wiki/Battle_of_Sekigahara
+150.244.199.100	duckduckgo	72	Mejor portátil por 600 euros	13	https://hardzone.es/que-portatil-comprar-por-600e/
+150.244.199.158	google+bing	87	Ratón blanco	8	https://www.milanuncios.com/mascotas/raton-blanco.htm
+195.135.248.133	duckduckgo	101	por que duckduckgo es mejor que google	1	https://www.xataka.com/basics/duckduckgo-que-principales-diferencias-google
+150.244.199.236	google	100	depth measure functional data Cuevas	1	https://www.researchgate.net/publication/24054015_Robust_estimation_and_classification_for_functional_data_via_projection-based_depth_notions
+95.127.170.164	duckduckgo	96	Algoritmo más útil del mundo	2	https://www.youtube.com/watch?v=8zgId4UNDDs
+176.83.89.89	google	97	Battle of sekigahara	5	https://www.nakasendoway.com/the-story-of-the-battle-of-sekigahara/
+150.244.199.10	duckduckgo	103	yield en python	1	https://stackoverflow.com/questions/7883962/where-to-use-yield-in-python-best
+95.127.170.164	duckduckgo	96	Algoritmo más útil del mundo	4	https://es.wikipedia.org/wiki/Algoritmo_de_ordenamiento
+195.135.248.133	duckduckgo	101	por que duckduckgo es mejor que google	3	https://es.quora.com/Cu%C3%A1l-buscador-es-mejor-DuckDuckGo-o-Google?share=1
+176.83.89.89	google	97	Battle of sekigahara	7	https://www.pinterest.com/pin/538461699167103194/
+150.244.199.144	google	63	twitter hashtag time series analysis	6	https://arxiv.org/pdf/1703.07518
+150.244.199.97	google	99	griffith did nothing wrong	4	https://www.reddit.com/r/OutOfTheLoop/comments/7nacf2/where_did_the_idea_griffith_did_nothing_wrong/
+150.244.199.56	ask	107	proximo partido atletico de madrid	1	https://www.atleticodemadrid.com/calendario-completo-primer-equipo/
+150.244.199.158	ask	105	Reigns	2	https://reignsgame.com/
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	2	https://www.elcorteingles.es/ideas-y-consejos/tecnologia/que-hay-detras-del-mapeado-inteligente-de-un-robot-aspirador-y-como-sacarle-el-maximo-partido/
+195.135.248.133	duckduckgo	101	por que duckduckgo es mejor que google	4	https://www.softzone.es/2018/01/01/duckduckgo-alternativa-google/
+150.244.199.144	google	63	twitter hashtag time series analysis	8	https://upcommons.upc.edu/bitstream/handle/2099.1/14421/Xuriguera.pdf?sequence=1&isAllowed=y
+150.244.199.119	google+bing	109	medidas covid castilla la mancha	1	https://www.castillalamancha.es/actualidad/notasdeprensa/el-gobierno-de-castilla-la-mancha-decreta-medidas-especiales-nivel-2-en-toda-la-comunidad-ante-el
+150.244.199.236	ask	114	geometric median	1	https://es.wikipedia.org/wiki/Mediana_geom%C3%A9trica
+150.244.199.54	google+bing	91	como ganar masa muscular	2	https://www.tuasaude.com/es/consejos-para-ganar-masa-muscular/
+95.127.170.164	google	113	Agujeros de gusano	1	https://es.wikipedia.org/wiki/Agujero_de_gusano
+150.244.199.103	ask	115	mejor club futbol frances	2	https://www.sobrefutbol.com/torneos/liga_francesa_equipo.htm
+150.244.199.182	duckduckgo	93	partidos champions league	1	https://es.uefa.com/uefachampionsleague/fixtures-results/
+150.244.199.154	google	117	datasets agricultura españa 2020	1	https://datos.gob.es/en/catalogo?theme_id=medio-rural-pesca
+150.244.199.56	duckduckgo	120	año estreno gladiator	1	https://es.wikipedia.org/wiki/Gladiator
+195.135.248.133	duckduckgo	101	por que duckduckgo es mejor que google	5	https://www.1000tipsinformaticos.com/2019/07/duckduckgo-vs-google-cual-es-el-mejor-motor-de-busqueda.html
+150.244.199.243	google+bing	44	que es peor la cerveza o la coca cola	1	https://www.eluniversal.com.mx/menu/azucar-o-alcohol-que-hace-mas-dano
+150.244.199.10	google	119	scopus advanced search query	1	https://www.scopus.com/search/form.uri?display=advanced
+150.244.199.54	google+bing	91	como ganar masa muscular	5	https://www.runtastic.com/blog/es/como-aumentar-la-masa-muscular/
+150.244.199.133	ask	124	ricci tensor	1	https://es.wikipedia.org/wiki/Tensor_de_Ricci
+176.83.89.89	google	126	Intersection 2 lists python	1	https://www.geeksforgeeks.org/python-intersection-two-lists/
+150.244.199.236	ask	114	geometric median	2	https://en.wikipedia.org/wiki/Geometric_median
+150.244.199.163	ask	125	receta quiche salmon ahumado	1	https://www.aldi.es/recetas/platos-mundo/quiche-salmon-ahumado-y-queso-cabra.html
+95.127.170.164	google	113	Agujeros de gusano	6	https://www.investigacionyciencia.es/noticias/sera-posible-detectar-un-agujero-de-gusano-en-el-corazn-de-la-va-lctea-17926
+150.244.199.54	google+bing	91	como ganar masa muscular	6	https://www.dir.cat/blog/es/como-ganar-masa-muscular-los-3-factores-a-tener-en-cuenta/
+176.83.89.89	google	126	Intersection 2 lists python	3	https://stackoverflow.com/questions/3697432/how-to-find-list-intersection
+150.244.199.162	duckduckgo	122	se hace prueba de drogas a los agentes antidisturbios	6	https://www.youtube.com/watch?v=iBDHoOL2ACU
+150.244.199.144	google	63	twitter hashtag time series analysis	9	https://iopscience.iop.org/article/10.1088/1757-899X/263/4/042081
+150.244.199.54	google+bing	91	como ganar masa muscular	8	https://www.youtube.com/watch?v=p0hLYY1Llaw
+150.244.199.10	google	119	scopus advanced search query	2	https://rushu.libguides.com/scopushelp/advancedsearch
+150.244.199.103	ask	115	mejor club futbol frances	7	https://elpais.com/deportes/2021-01-30/la-ligue-1-suspende-el-marsella-rennes-tras-un-ataque-de-los-hinchas-a-los-jugadores-del-olympique.html
+150.244.199.192	duckduckgo	83	estadisticas campazzo nba	11	https://www.2kratings.com/facundo-campazzo
+150.244.199.100	google+bing	129	Espionaje con delfines	2	https://www.bbc.com/mundo/noticias-internacional-48098550
+150.244.199.97	google	99	griffith did nothing wrong	9	https://www.amazon.com/-/es/JANNINSE-Griffith-Nothing-Berserk-almohada/dp/B08L3D8VKR
+150.244.199.133	ask	124	ricci tensor	2	https://en.wikipedia.org/wiki/Ricci_curvature
+150.244.199.154	google	117	datasets agricultura españa 2020	5	https://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2018/Mayo/Noticia-2018-05-07-Ranking-dataset-visitados-datos.gob.es.html
+150.244.199.54	google+bing	91	como ganar masa muscular	9	https://www.foodspring.es/magazine/plan-entrenamiento-para-ganar-masa-muscular
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	5	https://elpais.com/elpais/2021/02/01/escaparate/1612177663_150969.html
+150.244.199.137	duckduckgo	131	proximos campeonatos de ajedrez	2	https://www.ajedrezeureka.com/todos-los-campeones-y-campeonatos-del-mundo-de-ajedrez/
+150.244.199.72	google+bing	133	cuantos litros de agua hay que beber al día	1	https://www.mayoclinic.org/es-es/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256
+150.244.199.54	google+bing	91	como ganar masa muscular	10	https://www.foodspring.es/magazine/plan-de-entrenamiento-para-ganar-masa-muscular
+95.127.170.164	google	135	Estrellas de neutrones	4	https://www.nationalgeographic.es/espacio/estrellas-de-neutrones
+150.244.199.99	google+bing	137	best aos armies	1	https://aosshorts.com/age-of-sigmar-power-rankings/
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	6	https://www.elmundo.es/tecnologia/gadgets/2020/07/05/5ef456fafc6c83b5098b45e6.html
+150.244.199.103	ask	115	mejor club futbol frances	5	http://futboldesdefrancia.com/cuales-son-los-equipos-de-ligue1-mas-caros-de-seguir/
+150.244.199.119	duckduckgo	136	medidas covid castilla la mancha guadalajaradiario	3	https://www.guadalajaradiario.es/provincia/41428-castilla-la-mancha-presenta-los-peores-datos-de-covid-19-desde-la-nueva-normalidad.html
+37.10.149.120	duckduckgo	130	Elden ring release date	1	https://www.pcgamer.com/elden-ring-everything-we-know/
+195.135.248.133	ask	138	diferencias entre bitcoin y ethereum	2	https://www.finder.com/hk/bitcoin-vs-ethereum
+150.244.199.100	google+bing	129	Espionaje con delfines	1	https://www.lavanguardia.com/natural/animaladas-videos/20190502/461973666218/delfin-espia-reino-animal.html
+150.244.199.158	google	139	calçot subatómico	3	https://tucalcotsubatomico.wordpress.com/
+150.244.199.163	ask	125	receta quiche salmon ahumado	2	https://saborgourmet.com/quiche-de-salmon-ahumado/
+150.244.199.72	google+bing	133	cuantos litros de agua hay que beber al día	3	https://www.bbc.com/mundo/vert-fut-48097740
+176.83.89.89	google+bing	145	Obsidian samurai	4	https://es.wikipedia.org/wiki/Yasuke
+176.83.89.89	google	144	Obsidian samurai	4	https://es.wikipedia.org/wiki/Yasuke
+150.244.199.137	duckduckgo	131	proximos campeonatos de ajedrez	4	https://www.aboutespanol.com/campeones-mundiales-de-ajedrez-54774
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	8	https://www.neo2.com/cecotec-la-marca-espanola-empresa/
+150.244.199.144	bing	141	masa de pizza sin gluten	1	https://www.manaproductossingluten.com/
+150.244.199.158	google	139	calçot subatómico	6	https://calcotsubatomicocom.wordpress.com/
+150.244.199.119	duckduckgo	136	medidas covid castilla la mancha guadalajaradiario	5	https://www.guadalajaradiario.com/coronavirus.html
+176.83.89.89	google+bing	145	Obsidian samurai	2	https://nioh2.wiki.fextralife.com/Obsidian+Samurai
+176.83.89.89	google	144	Obsidian samurai	5	https://en.wikipedia.org/wiki/Yasuke
+150.244.199.72	google+bing	133	cuantos litros de agua hay que beber al día	4	https://www.vitonica.com/prevencion/cuanto-agua-hay-que-beber-al-dia-respuesta-no-dos-litros
+150.244.199.239	google+bing	75	estado del arte de la ia detrás de los robot aspirador	9	https://www.muyinteresante.es/tecnologia/articulo/ventajas-y-riesgos-de-la-inteligencia-artificial-651449483429
+150.244.199.154	google+bing	149	agricultura 2020 datos.gob.es	2	https://datos.gob.es/es/noticias-tags/agricultura
+195.135.248.133	ask	138	diferencias entre bitcoin y ethereum	3	https://hackernoon.com/differences-between-bitcoin-ethereum-e8744405db9b
+150.244.199.100	google+bing	129	Espionaje con delfines	4	https://www.rtve.es/alacarta/audios/memoria-de-delfin/memoria-delfin-espionaje-desde-garganta-profunda-nuestros-dias-23-05-16/3613626/
+150.244.199.119	duckduckgo	155	mendeley	1	https://www.mendeley.com/
+95.127.170.164	duckduckgo	156	Que significa ser madridista 	1	https://www.youtube.com/watch?v=poM27PRgG80
+150.244.199.10	google	153	receta tarta de queso	1	https://www.dulcespostres.com/tarta-de-queso-fria/
+150.244.199.100	google+bing	129	Espionaje con delfines	3	https://www.elperiodico.com/es/internacional/20150819/hamas-caputara-un-delfin-espia-de-israel-4442046
+150.244.199.32	duckduckgo	162	applications of game theory	1	https://en.wikipedia.org/wiki/Game_theory
+150.244.199.97	ask	147	griffith did nothing wrong	1	https://www.youtube.com/watch?v=A4JVtQwWHBk
+150.244.199.158	google+bing	140	calçot subatómico	1	https://sites.google.com/view/calsot-subatomico/home/
+150.244.199.32	duckduckgo	162	applications of game theory	3	https://ocw.mit.edu/courses/economics/14-12-economic-applications-of-game-theory-fall-2012/lecture-notes/
+150.244.199.56	google	167	master universitario en ciencia de datos uam	1	https://www.uam.es/EPS/MasterCD/1446800691531.htm?language=en&nodepath=M?ster%20Universitario%20en%20Ciencia%20de%20Datos
+150.244.199.137	ask	173	dallas vs boston nba	1	https://us.marca.com/claro/baloncesto/nba/2021/02/24/6035d444ca4741c1238b4625.html
+176.83.89.89	google+bing	176	Yukio mishima	1	https://es.wikipedia.org/wiki/Yukio_Mishima
+150.244.199.56	google+bing	168	master universitario en ciencia de datos uam	2	https://uam.es/CentroEstudiosPosgrado/MU_Ciencia_Datos/1446801510863.htm?language=es_ES&nDept=3&pid=1446755975574&pidDept=1446755975831
+150.244.199.158	google	177	Sueldo profesores UAM	1	https://transparencia.uam.es/wp-content/uploads/2020/05/Retribuciones-PDI.pdf
+150.244.199.72	duckduckgo	174	mascarilla ffp3 precio	1	https://www.amazon.es/mascarilla-ffp3/s?k=mascarilla+ffp3
+150.244.199.133	ask	124	ricci tensor	3	http://teoria-de-la-relatividad.blogspot.com/2009/03/25b-el-tensor-de-ricci.html
+150.244.199.103	google+bing	169	Covid Madrid situacion	2	https://www.comunidad.madrid/sites/default/files/doc/sanidad/epid/informe_epidemiologico_semanal_covid.pdf
+176.83.89.89	google+bing	176	Yukio mishima	2	https://www.elmundo.es/cultura/2015/11/25/565506a0268e3ea1198b4644.html
+150.244.199.239	duckduckgo	179	ejercicios resueltos diodos circuitos electrónicos	1	https://tuelectronica.es/circuitos-con-diodos/
+150.244.199.56	google	167	master universitario en ciencia de datos uam	2	https://uam.es/CentroEstudiosPosgrado/MU_Ciencia_Datos/1446801510863.htm?language=es_ES&nDept=3&pid=1446755975574&pidDept=1446755975831
+150.244.199.72	duckduckgo	174	mascarilla ffp3 precio	2	https://www.promofarma.com/salud/cuidado-respiratorio/prevencion/mascarilla
+150.244.199.158	google	177	Sueldo profesores UAM	2	https://uam.es/UAM/documento/1446727414869/RETRIBUCIONES%20PROFESORES%20CONTRATADOS%20L.pdf?blobheader=application/pdf
+95.127.170.164	duckduckgo	182	Alineación Del Real madrid 6 copa de Europa 	1	https://www.realmadrid.com/landings/copas-de-europa-ganadas/sexta-copa-de-europa.html
+150.244.199.137	ask	173	dallas vs boston nba	4	https://www.sofascore.com/es/boston-celtics-dallas-mavericks/ltbsxtb
+150.244.199.172	google	181	Cierre perimetral San Sebastián de los reyes	2	https://www.diariodesanse.com/2021/02/05/habra-restricciones-a-la-movilidad-en-todo-sanse-y-alcobendas-desde-el-lunes-11-2/
+150.244.199.97	ask	147	griffith did nothing wrong	4	https://www.reddit.com/r/OutOfTheLoop/comments/7nacf2/where_did_the_idea_griffith_did_nothing_wrong/
+150.244.199.162	ask	175	como murio durruti	5	https://www.lavanguardia.com/hemeroteca/20161122/411878974958/buena-ventura-durruti-anarquismo-cnt-guerra-civil-espanola.html
+150.244.199.163	ask	125	receta quiche salmon ahumado	4	https://www.ahumadosdominguez.es/es/recetas-ahumados/quiche-de-salmon-ahumado/
+150.244.199.121	google	183	spiderman 3 title	2	https://www.polygon.com/2021/2/23/22298156/spider-man-3-title-phone-home-tom-holland
+150.244.199.100	google+bing	129	Espionaje con delfines	5	https://www.ngenespanol.com/el-mundo/historia-secreta-animales-espias-cia/
+150.244.199.72	duckduckgo	174	mascarilla ffp3 precio	7	https://www.comercturro.com/tiendaonline/mascarillas-autofiltrantes/_ffp3/
+150.244.199.158	google	177	Sueldo profesores UAM	6	http://uam.es/UAM/Contratados-laborales-y-titulares-interinos/1446768938747.htm
+176.83.89.89	google+bing	184	Yukio mishima death	4	https://www.bbc.com/culture/article/20201124-yukio-mishima-the-strange-tale-of-japans-infamous-novelist
+150.244.199.154	duckduckgo	185	excedentes agricolas datos.gob.es	1	https://datos.gob.es/es/doc-tags/datos-agricolas
+150.244.199.154	duckduckgo	185	excedentes agricolas datos.gob.es	1	https://datos.gob.es/es/doc-tags/datos-agricolas
+150.244.199.182	google	186	spiro papadapaconstantikasgianopolopodopotopolis	2	https://simpsonswiki.com/wiki/Spiro_Papadapaconstantikasgianopolopodopotopolis
+150.244.199.158	google	177	Sueldo profesores UAM	9	http://www.uam.es/UAM/PDI
+150.244.199.54	google+bing	91	como ganar masa muscular	11	https://www.vitonica.com/entrenamiento/todo-que-tienes-que-saber-quieres-aumentar-tu-masa-muscular-gimnasio-1
+150.244.199.97	ask	147	griffith did nothing wrong	9	https://aminoapps.com/c/anime/page/blog/griffith-did-nothing-wrong/mJtk_u0XzDl5kYnX2vJzLkVPRpYxEk
+150.244.199.103	google+bing	169	Covid Madrid situacion	6	https://www.newtral.es/mapa-covid-coronavirus-madrid/
+150.244.199.10	bing	187	nocturno chopin 1 op.9	1	https://www.youtube.com/watch?v=MPvS0g2papI
+150.244.199.54	google+bing	91	como ganar masa muscular	12	https://skilledfitness.com/ganar-masa-muscular/
+150.244.199.192	google	192	noticias euroliga	1	https://as.com/baloncesto/euroliga.html
+150.244.199.239	duckduckgo	179	ejercicios resueltos diodos circuitos electrónicos	2	https://es.scribd.com/document/160360464/Ejercicios-Resueltos-Con-Diodos
+176.83.89.89	google+bing	184	Yukio mishima death	2	https://es.wikipedia.org/wiki/Yukio_Mishima
+150.244.199.10	bing	187	nocturno chopin 1 op.9	2	https://www.youtube.com/watch?v=YGRO05WcNDk
+150.244.199.72	google+bing	193	mascarilla ffp4 precio	1	https://spanish.alibaba.com/g/disposable-ffp2-ffp3-ffp4-dust-mask.html
+150.244.199.97	ask	147	griffith did nothing wrong	10	https://www.alertageekchile.cl/podcast/el-rincon-del-anime-3griffith-did-nothing-wrong/
+95.127.170.164	duckduckgo	194	Cuando se termina el covid 19	2	https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses
+150.244.199.236	ask	195	alfors book complex analysis	2	https://www.amazon.es/Complex-Analysis-3rd-Lars-Ahlfors/dp/1259064824
+150.244.199.163	ask	125	receta quiche salmon ahumado	6	https://www.elespanol.com/cocinillas/recetas/panes-y-otras-masas/20111027/quiche-salmon-ahumado-cebolla-caramelizada-rulo-cabra/1000065043500_30.html
+150.244.199.119	google	188	calçot subatomico	1	https://sites.google.com/view/calsot-subatomico/home/
+150.244.199.239	duckduckgo	179	ejercicios resueltos diodos circuitos electrónicos	3	https://www.academia.edu/10021000/Ejercicios_de_circuitos_electricos_por_nodos_resueltos
+150.244.199.172	google	181	Cierre perimetral San Sebastián de los reyes	3	https://www.20minutos.es/minuteca/san-sebastian-de-los-reyes/
+195.135.248.133	duckduckgo	191	por que la computacion cuantica no sirve para nada	15	https://www.dw.com/es/para-qu%C3%A9-sirve-en-realidad-una-computadora-cu%C3%A1ntica/a-50991735
+150.244.199.236	ask	195	alfors book complex analysis	1	http://people.math.gatech.edu/~mccuan/courses/6321/lars-ahlfors-complex-analysis-third-edition-mcgraw-hill-science_engineering_math-1979.pdf
+150.244.199.137	duckduckgo	196	proximos juegos survival	5	https://vandal.elespanol.com/lanzamientos/13/pc
+150.244.199.119	google	188	calçot subatomico	3	https://calcotsubatomico0.wordpress.com/
+150.244.199.97	ask	147	griffith did nothing wrong	1	https://www.youtube.com/watch?v=A4JVtQwWHBk
+150.244.199.72	google+bing	193	mascarilla ffp4 precio	3	https://behindhermask.es/mascarilla-ffp4-reutilizables.html
+150.244.199.162	ask	175	como murio durruti	3	https://www.abc.es/historia/abci-bala-perdida-mato-durruti-1936-mayor-misterio-guerra-civil-85-anos-despues-202004200113_noticia.html
+150.244.199.182	google	186	spiro papadapaconstantikasgianopolopodopotopolis	3	https://simpsonswiki.com/wiki/Spiro%27s
+95.127.170.164	google	199	Puedo contagiar si tengo anticuerpos del Covid 	2	https://hipertextual.com/2020/11/contagiar-anticuerpos
+150.244.199.56	duckduckgo	201	conciertos mas multitudinarios de la historia	1	https://noticiasyprotagonistas.com/actualidad/los-15-conciertos-mas-multitudinarios-de-la-historia/
+150.244.199.137	duckduckgo	196	proximos juegos survival	6	https://www.3djuegos.com/lanzamientos-juegos/pc/proximos-lanzamientos/1/
+150.244.199.72	google+bing	193	mascarilla ffp4 precio	2	https://behindhermask.es/mascarilla-ffp4
+150.244.199.133	ask	124	ricci tensor	4	https://mathworld.wolfram.com/RicciCurvatureTensor.html
+150.244.199.54	google+bing	202	para que sirve la creatina 	3	https://www.palabraderunner.com/creatina/
+150.244.199.97	google	205	griffith did nothing wrong	4	https://www.reddit.com/r/OutOfTheLoop/comments/7nacf2/where_did_the_idea_griffith_did_nothing_wrong/
+150.244.199.54	google+bing	202	para que sirve la creatina 	4	https://www.tuasaude.com/es/tomar-creatina/
+176.83.89.89	duckduckgo	203	Where to start with yukio mishima	8	https://medium.com/@xi_chen/why-americans-should-read-yukio-mishima-439628ba0753
+150.244.199.10	google	208	watch game of thrones free online	1	https://got8.org/
+150.244.199.54	google+bing	202	para que sirve la creatina 	5	https://www.fitnessrevolucionario.com/2015/04/26/creatina-uno-de-los-mejores-suplementos-beneficios-usos-dosis-riesgos/
+150.244.199.119	ask	209	shaders minecraft	1	https://www.questionsanswered.net/tech/where-to-find-minecraft-skins-online?ad=dirN&qo=serpIndex&o=740012
+150.244.199.163	ask	210	calçot subatómico	2	https://sites.google.com/view/elcalcotsubatomico/inicio
+150.244.199.192	google	192	noticias euroliga	3	https://www.marca.com/baloncesto/euroliga.html
+150.244.199.144	duckduckgo	213	cuanto cuesta netflix	1	http://cuantocuesta.site/cuanto-cuesta-netflix/
+150.244.199.239	ask	212	lore titanes eldia shingeki no kyojin	1	https://shingeki-no-kyojin.fandom.com/es/wiki/Eldia
+176.83.89.89	duckduckgo	203	Where to start with yukio mishima	10	https://www.reddit.com/r/YukioMishima/comments/ar53d4/yukio_mishimas_training_routine/
+150.244.199.133	ask	124	ricci tensor	5	https://www.youtube.com/watch?v=v0VjZXv31uA
+150.244.199.144	duckduckgo	213	cuanto cuesta netflix	3	https://es.digitaltrends.com/entretenimiento/precios-planes-netflix/
+150.244.199.158	google+bing	215	Spiderman new movie troll	1	https://deadline.com/2021/02/spider-man-stars-first-images-troll-fans-title-cards-1234699658/
+150.244.199.133	ask	124	ricci tensor	6	https://www.youtube.com/watch?v=cA7RXRsLJSw
+150.244.199.121	google	183	spiderman 3 title	4	https://screenrant.com/spider-man-3-fake-title-reveal-tom-holland/
+150.244.199.163	ask	210	calçot subatómico	1	https://tucalcotsubatomico.wordpress.com/
+150.244.199.133	ask	124	ricci tensor	7	https://www.sciencedirect.com/topics/mathematics/ricci-tensor
+150.244.199.119	ask	209	shaders minecraft	2	https://www.lifewire.com/how-to-install-minecraft-shaders-4799056
+150.244.199.236	ask	217	teorema aplicación abierta	1	https://www.ugr.es/~rpaya/documentos/Funcional/2018-19/Abierta.pdf
+176.83.89.89	duckduckgo	203	Where to start with yukio mishima	13	https://www.wisegeek.com/who-is-yukio-mishima.htm
+150.244.199.56	duckduckgo	201	conciertos mas multitudinarios de la historia	2	https://musicaenvia.wordpress.com/los-7-conciertos-mas-multitudinarios-de-la-historia/
+150.244.199.236	ask	217	teorema aplicación abierta	3	https://es.wikipedia.org/wiki/Teorema_de_la_funci%C3%B3n_abierta
+150.244.199.32	google	218	espionaje con delfines	1	https://www.lavanguardia.com/natural/animaladas-videos/20190502/461973666218/delfin-espia-reino-animal.html
+95.127.170.164	google	221	Mejor universidad de madrid para estudiar ingeniería 	3	https://www.fundacioncyd.org/universidades-destacadas-estudiar-ingenieria-en-espana/
+176.83.89.89	duckduckgo	203	Where to start with yukio mishima	1	https://en.wikipedia.org/wiki/Yukio_Mishima
+150.244.199.10	google	208	watch game of thrones free online	5	https://www.bestsevenreviews.com/howto/watch-game-of-thrones-online-free/
+150.244.199.182	google+bing	219	mejores series de comedia	1	https://www.espinof.com/listas/mejores-series-comedia-netflix-hbo-amazon-demas-plataformas-streaming
+150.244.199.97	ask	222	griffith did nothing wrong	10	https://www.alertageekchile.cl/podcast/el-rincon-del-anime-3griffith-did-nothing-wrong/
+150.244.199.158	google+bing	215	Spiderman new movie troll	7	https://www.buzz.ie/movies-tv/spider-man-3-cast-troll-fans-over-films-title-419298
+150.244.199.133	ask	124	ricci tensor	8	http://astro.dur.ac.uk/~done/gr/l11.pdf
+150.244.199.99	google+bing	137	best aos armies	4	https://spikeybits.com/2020/01/top-10-aos-armies-of-the-2020-lvo.html
+150.244.199.103	google+bing	169	Covid Madrid situacion	9	https://www.20minutos.es/minuteca/coronavirus-madrid/
+150.244.199.154	google+bing	225	datasets MAPA	1	https://datos.gob.es/en/catalogo/e00125901-spaignme1250vectorserie
+150.244.199.97	ask	222	griffith did nothing wrong	9	https://aminoapps.com/c/anime/page/blog/griffith-did-nothing-wrong/mJtk_u0XzDl5kYnX2vJzLkVPRpYxEk
+195.135.248.133	duckduckgo	230	andorra es un paraiso fiscal	1	https://elordenmundial.com/es-andorra-un-paraiso-fiscal/
+150.244.199.158	duckduckgo	229	keyforge	2	https://www.fantasyflightgames.com/en/products/keyforge/
+176.83.89.89	google+bing	228	King gizzard lw release date	2	https://es.wikipedia.org/wiki/King_Gizzard_%26_the_Lizard_Wizard
+150.244.199.154	google+bing	225	datasets MAPA	2	https://datos.gob.es/en/catalogo?tags=Mapas+de+cultivo
+150.244.199.119	ask	209	shaders minecraft	7	https://www.extremetech.com/extreme/72364-using-vertex-shaders
+150.244.199.162	google	226	grad cam for model resnet	2	https://medium.com/@stepanulyanin/grad-cam-for-resnet152-network-784a1d65f3
+150.244.199.144	google	232	cuanto cobra ibai	1	https://okdiario.com/tt/sueldo-youtubers-cuanto-cobran-rubius-ibai-llanos-auronplay-6779182
+150.244.199.137	google+bing	234	consejos valheim	1	https://vandal.elespanol.com/guias/guia-valheim-trucos-consejos-y-secretos/consejos-basicos
+150.244.199.236	ask	236	principio del modulo maximo	1	https://es.wikipedia.org/wiki/Principio_del_m%C3%B3dulo_m%C3%A1ximo
+150.244.199.154	google+bing	225	datasets MAPA	2	https://datos.gob.es/en/catalogo?tags=Mapas+de+cultivo
+150.244.199.97	ask	222	griffith did nothing wrong	4	https://www.reddit.com/r/OutOfTheLoop/comments/7nacf2/where_did_the_idea_griffith_did_nothing_wrong/
+150.244.199.162	google	226	grad cam for model resnet	3	https://github.com/insikk/Grad-CAM-tensorflow
+150.244.199.172	google	181	Cierre perimetral San Sebastián de los reyes	4	https://www.madridnorte24horas.com/alcobendas/covid-19-alcobendas/alcobendas-y-san-sebastian-de-los-reyes-bajo-cierre-perimetral/
+150.244.199.243	google	238	Real Madrid alineación hoy	1	https://as.com/futbol/2021/02/24/champions/1614152695_778278.html
+150.244.199.133	ask	124	ricci tensor	9	https://www.researchgate.net/post/what_is_physical_significance_of_ricci_tensor_Does_it_give_the_full_curvature
+176.83.89.89	google+bing	228	King gizzard lw release date	6	https://liveforlivemusic.com/news/king-gizzard-lizard-wizard-new-single-pleura-live-video/
+150.244.199.72	ask	241	John Grisham last book	3	https://en.wikipedia.org/wiki/John_Grisham
+150.244.199.154	google+bing	225	datasets MAPA	6	https://opendata-ajuntament.barcelona.cat/data/es/dataset
+150.244.199.239	google+bing	240	quien es grisha jaeger	2	https://shingeki-no-kyojin.fandom.com/es/wiki/Grisha_Jaeger
+150.244.199.121	google	239	keyforge 4	1	http://www.fantasyflightgames.es/juegos/coleccion/keyforge
+195.135.248.133	duckduckgo	230	andorra es un paraiso fiscal	3	https://www.lasexta.com/programas/sexta-columna/noticias/es-andorra-un-paraiso-fiscal_20210205601d9a55c7101f00014f5490.html
+150.244.199.133	ask	124	ricci tensor	10	https://www.maplesoft.com/support/help/Maple/view.aspx?path=Physics%5BRicci%5D
+150.244.199.56	ask	242	zonas confinadas madrid	1	https://www.comunidad.madrid/covid-19
+150.244.199.103	google	243	Cómo hacer una pizza 	1	https://www.recetasdesbieta.com/como-hacer-pizza-casera-rapida-con-masa-de-pizza-sin-reposo/
+150.244.199.10	duckduckgo	245	how much money does bezos have	1	https://www.quora.com/How-much-money-does-Jeff-Bezos-have-in-cash-not-in-assets-or-stocks?share=1
+150.244.199.239	google+bing	240	quien es grisha jaeger	5	https://elcomercio.pe/tvmas/series/attack-on-titan-grisha-jaeger-historia-humanidad-padre-eren-nnda-nnlt-noticia-645735-noticia/
+176.83.89.89	google+bing	228	King gizzard lw release date	8	https://glidemagazine.com/253826/king-gizzard-the-lizard-wizard-announce-17th-studio-lp-l-w-out-next-week/
+195.135.248.133	duckduckgo	230	andorra es un paraiso fiscal	7	https://www.paraisos-fiscales.info/blog/andorra/andorra-gran-paraiso-fiscal-para-espana
+150.244.199.192	google+bing	247	alejandro bellogin uam	1	http://ir.ii.uam.es/~alejandro/
+150.244.199.97	ask	246	griffith did nothing wrong	6	https://www.amazon.es/Saitama-Griffith-Nothing-Wrong-Berserk/dp/B083GKLNTV
+150.244.199.72	ask	241	John Grisham last book	5	https://www.howtoread.me/john-grisham-books-in-order/
+150.244.199.10	duckduckgo	245	how much money does bezos have	5	https://en.wikipedia.org/wiki/Jeff_Bezos
+150.244.199.164	duckduckgo	248	algorithms to know	1	https://www.quora.com/What-are-the-10-algorithms-one-must-know-in-order-to-solve-most-algorithm-problems?share=1
+150.244.199.32	duckduckgo	252	problemas del siglo	1	https://hablandoenvidrio.com/7-grandes-problemas-medioambientales/
+150.244.199.137	google+bing	234	consejos valheim	3	https://es.digitaltrends.com/guias/guia-valheim-consejos/
+150.244.199.99	ask	250	tame pigs valheim	1	https://www.questionsanswered.net/article/how-start-pig-farm?ad=dirN&qo=serpIndex&o=740012
+150.244.199.54	google+bing	202	para que sirve la creatina 	6	https://www.youtube.com/watch?v=n5NSGPPyISw
+95.127.170.164	google+bing	253	Rey Carlos III de españa 	5	https://www.biografiasyvidas.com/biografia/c/carlos_iii.htm
+150.244.199.236	ask	236	principio del modulo maximo	5	http://fernandorevilla.es/blog/2015/09/06/principio-del-modulo-maximo/
+150.244.199.103	google	243	Cómo hacer una pizza 	2	https://www.recetasgratis.net/receta-de-pizza-casera-31391.html
+150.244.199.163	duckduckgo	255	mejor móvil calidad precio 2021	1	https://7mejor.top/movil-calidad-precio/
+150.244.199.133	ask	124	ricci tensor	10	https://www.maplesoft.com/support/help/Maple/view.aspx?path=Physics%5BRicci%5D
+150.244.199.182	google+bing	219	mejores series de comedia	6	http://www.sensacine.com/series-tv/mejores/genero-13005/pais-5002/
+150.244.199.119	duckduckgo	256	fernando alonso cuello	1	https://www.menshealth.com/es/fitness/a35594102/fernando-alonso-entrenamiento-cuello-accidente-bicicleta/
+150.244.199.72	ask	241	John Grisham last book	6	https://www.deadgoodbooks.co.uk/john-grisham-books-in-order/
+150.244.199.133	google	259	maxwell equations	1	https://es.wikipedia.org/wiki/Ecuaciones_de_Maxwell
+150.244.199.243	google	260	UFC 259	2	https://www.ufcespanol.com/event/ufc-259
+150.244.199.99	ask	262	tame valheim	1	https://www.ign.com/wikis/valheim/How_to_Tame_All_Animals
+150.244.199.192	google+bing	247	alejandro bellogin uam	2	https://portalcientifico.uam.es/ipublic/agent-personal/profile/iMarinaID/04-261320/name/BELLOGIN-KOUKI-ALEJANDRO
+150.244.199.239	ask	263	como hacer un helado sin lacteos	1	https://libredelacteos.com/recetas-sin-lacteos/helados-caseros-sin-lacteos/
+150.244.199.192	google+bing	247	alejandro bellogin uam	3	https://es.linkedin.com/in/alejandro-bellog%C3%ADn-8011724/es-es
+195.135.248.133	google	267	por que el tekken es tan aburrido	3	https://rpp.pe/blog/mas-consolas/lo-bueno-lo-malo-y-lo-feo-de-tekken-7-noticia-1054566
+150.244.199.172	duckduckgo	268	Cantidad de vacunas españa	1	https://www.mundodeportivo.com/actualidad/20201224/491255496989/vacuna-pfizer-campana-vacunacion-cataluna-espana-coronavirus-covid-19-act-pau.html
+150.244.199.54	google+bing	202	para que sirve la creatina 	7	https://www.youtube.com/watch?v=7dtvqXWmB4g
+150.244.199.97	google	265	Griffith	3	https://berserk.fandom.com/es/wiki/Griffith
+150.244.199.54	google+bing	202	para que sirve la creatina 	8	https://www.vitonica.com/alimentos-funcionales/mitos-verdades-creatina-que-tienes-que-saber-este-suplemento
+150.244.199.162	google	226	grad cam for model resnet	9	https://arxiv.org/pdf/1901.07683
+150.244.199.163	duckduckgo	255	mejor móvil calidad precio 2021	2	https://andro4all.com/compras/moviles/mejores-moviles-calidad-precio
+150.244.199.10	ask	269	jose garcía cuerva	1	http://matematicas.uam.es/~jose.garcia-cuerva/
+150.244.199.119	duckduckgo	271	scikit fda	1	https://fda.readthedocs.io/
+150.244.199.56	duckduckgo	273	calendario laboral madrid 2021	1	https://www.calendarioslaborales.com/calendario-laboral-madrid-2021.htm
+150.244.199.103	google+bing	272	Resultados champions	3	https://resultados.as.com/resultados/futbol/champions/jornada/
+150.244.199.133	google	259	maxwell equations	2	https://en.wikipedia.org/wiki/Maxwell%27s_equations
+150.244.199.172	duckduckgo	268	Cantidad de vacunas españa	2	https://www.eluniversal.com.mx/mundo/en-espana-se-han-aplicado-tres-millones-de-vacunas-contra-covid-19
+150.244.199.54	google+bing	202	para que sirve la creatina 	10	https://www.foodspring.es/magazine/ganar-masa-muscular-con-creatina
+150.244.199.243	google	260	UFC 259	3	https://www.ufc.com/ufc-259
+150.244.199.154	ask	277	las noticias	1	https://elpais.com/ultimas-noticias/
+150.244.199.54	google+bing	202	para que sirve la creatina 	11	https://vidabirdman.com/blogs/recetas-saludables-veganas/10-beneficios-de-tomar-creatina
+150.244.199.10	duckduckgo	279	20 minutos	1	https://20minutos.es/
+150.244.199.137	duckduckgo	280	tabla de tipos pokemon	1	https://hablamosdegamers.com/analisis/pokemon-go-tipos-debilidades/
+150.244.199.119	duckduckgo	271	scikit fda	2	https://github.com/GAA-UAM/scikit-fda
+95.127.170.164	duckduckgo	270	Calçot subatomico 	4	https://es.wikipedia.org/wiki/Cal%C3%A7ot
+150.244.199.72	google+bing	282	llevar gafas protege contagio covid	1	https://www.lavanguardia.com/vivo/lifestyle/20200925/483651931682/gafas-evitar-coronavirus.html
+150.244.199.158	google	283	pablito castillos	9	https://www.letras.com/pablito-castillo/
+150.244.199.97	ask	287	Berserker	1	https://es.wikipedia.org/wiki/Berserker
+150.244.199.243	duckduckgo	289	UFC 259 predicción	2	https://www.tapology.com/fightcenter/events/74079-ufc-fight-night
+150.244.199.158	google+bing	284	pablito castillos	1	https://www.youtube.com/channel/UCJ5CoNKGFiOSXt1sih0uSXg
+150.244.199.97	ask	287	Berserker	6	https://www.muyhistoria.es/curiosidades/preguntas-respuestas/quienes-fueron-los-guerreros-berserker-511453308623
+150.244.199.137	duckduckgo	280	tabla de tipos pokemon	3	https://as.com/meristation/2019/12/01/guia_pagina/1575197597_259376.html
+150.244.199.10	duckduckgo	292	cuanto cobra un profesor de universidad en españa	1	https://www.cuanto-gana.com/cuanto-cobra-un-profesor-en-espana/
+150.244.199.162	google	226	grad cam for model resnet	8	https://research.fb.com/wp-content/uploads/2017/09/iccv-grad-cam.pdf
+150.244.199.158	google+bing	284	pablito castillos	2	https://www.facebook.com/directory/pages/A-12110689-12115824
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	2	https://tokyo2020.org/es/
+150.244.199.192	duckduckgo	297	pablo castells uam	1	http://ir.ii.uam.es/castells/
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	3	https://tokyo2020.org/es/deportes/
+150.244.199.154	ask	277	las noticias	2	https://www.elmundo.es/ultimas-noticias.html
+150.244.199.72	google+bing	282	llevar gafas protege contagio covid	7	https://www.20minutos.es/noticia/4597115/0/llevar-gafas-protege-contagio-covid/
+150.244.199.10	duckduckgo	292	cuanto cobra un profesor de universidad en españa	2	https://answers.yahoo.com/question/index?qid=20100521125424AAekxMe
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	6	https://www.eurosport.es/juegos-olimpicos/tokio-2020/2020/calendario-horarios-tokio-2020-fechas-schedule_sto7395156/story.shtml
+150.244.199.121	duckduckgo	301	2020 olimpic games logo	1	https://logos.fandom.com/wiki/Tokyo_2020
+150.244.199.100	google+bing	129	Espionaje con delfines	6	https://es.euronews.com/2019/04/30/una-ballena-espia-de-rusia
+150.244.199.32	ask	299	es la leche con cereales una sopa	1	https://qastack.mx/cooking/76084/is-cereal-a-soup
+150.244.199.103	google	304	La casa de papel temporada 5	1	https://www.menshealth.com/es/noticias-deportivas-masculinas/a34504745/la-casa-de-papel-temporada-5-fecha-estreno-reparto/
+150.244.199.137	google	303	himno del betis letra	1	https://www.goal.com/es/noticias/que-dice-el-himno-del-betis/ggk4wl6vymp91aclgnca15zda
+150.244.199.133	google	259	maxwell equations	3	#
+150.244.199.97	duckduckgo	302	Berserk hiatus	1	https://www.reddit.com/r/Berserk/comments/7wrc0p/berserk_manga_hiatus_chart_im_new_to_reddit_so/
+150.244.199.158	google+bing	284	pablito castillos	3	https://www.instagram.com/pablitocastilloo/?hl=es
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	4	https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Tokio_2020
+150.244.199.56	google+bing	308	np.linalg.svd	1	https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html
+150.244.199.158	google+bing	284	pablito castillos	6	https://www.periodicodeibiza.es/deportes/deporte-ibiza/2021/01/13/1229595/copa-del-rey-horario-pena-deportiva-valladolid.html
+150.244.199.133	google	259	maxwell equations	4	https://maxwells-equations.com/
+150.244.199.154	ask	277	las noticias	4	https://www.rtve.es/noticias/s/espana/
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	5	https://www.jrailpass.com/blog/es/tokio-2020-juegos-olimpicos
+150.244.199.121	duckduckgo	301	2020 olimpic games logo	3	https://tokyo2020.org/en/games/emblem/
+150.244.199.119	google+bing	309	stochastic differential equations applied to stock market	1	https://arxiv.org/pdf/1707.05419
+150.244.199.133	google	259	maxwell equations	5	http://hyperphysics.phy-astr.gsu.edu/hbase/electric/maxeq.html
+150.244.199.54	google	307	Porque Pablo Castells es el mejor profesor de la universidad	7	https://portalcientifico.uam.es/ipublic/agent-personal/profile/iMarinaID/04-259643/name/CASTELLS%20AZPILICUETA,%20PABLO
+150.244.199.97	duckduckgo	302	Berserk hiatus	3	https://www.youtube.com/watch?v=bo9V90--fSU
+150.244.199.163	ask	315	restricciones madrid covid	1	https://www.comunidad.madrid/covid-19
+150.244.199.10	google	314	facebook salary	1	https://www.indeed.com/cmp/Facebook/salaries
+150.244.199.163	ask	315	restricciones madrid covid	2	https://www.comunidad.madrid/servicios/salud/coronavirus
+150.244.199.239	google+bing	316	analyze novel using natural language proccesing	1	https://www.quora.com/How-can-I-use-natural-language-processing-methods-to-analyze-some-relationships-in-a-novel
+150.244.199.236	ask	317	ferraty non parametrics	1	https://www.springer.com/gp/book/9780387303697
+150.244.199.97	duckduckgo	302	Berserk hiatus	5	https://en.wikipedia.org/wiki/List_of_Berserk_chapters
+150.244.199.56	google	320	np.linalg.svd example	3	https://stackoverflow.com/questions/24913232/using-numpy-np-linalg-svd-for-singular-value-decomposition
+150.244.199.236	ask	317	ferraty non parametrics	2	https://link.springer.com/book/10.1007/0-387-36620-2
+150.244.199.121	duckduckgo	301	2020 olimpic games logo	5	https://www.snopes.com/fact-check/2020-summer-olympics-logo/
+150.244.199.172	duckduckgo	268	Cantidad de vacunas españa	3	https://www.marca.com/tiramillas/actualidad/2021/02/23/60347cf2268e3e524c8b45a4.html
+150.244.199.182	duckduckgo	306	red bull rb19	9	https://www.racedepartment.com/threads/f1-the-new-red-bull-racing-rb16b-breaks-cover.198821/
+195.135.248.133	google	323	que significa ser edgy	2	https://diccionarioactual.com/edgy/
+150.244.199.137	google	303	himno del betis letra	2	https://www.letras.com/fondo-flamenco/1365333/
+150.244.199.158	google+bing	295	Juegos olimpicos 2020	7	https://www.marca.com/juegos-olimpicos/2020/03/30/5e81c6d3ca474188308b4575.html
+150.244.199.54	google+bing	326	por qué Alejandro Bellogin es el mejor tutor de la universidad	1	https://es.linkedin.com/in/alejandro-bellog%C3%ADn-8011724/es-es
+150.244.199.54	google+bing	326	por qué Alejandro Bellogin es el mejor tutor de la universidad	2	http://ir.ii.uam.es/~alejandro/
+95.127.170.164	google	329	Tercios de Flandes 	1	https://es.wikipedia.org/wiki/Ej%C3%A9rcito_de_Flandes
+150.244.199.97	duckduckgo	302	Berserk hiatus	8	https://en.wikipedia.org/wiki/Berserk_(manga)
+150.244.199.10	google	325	best ide 2021	2	https://htmlcssmonk.medium.com/10-best-ide-for-web-development-in-2021-899c97b4b6a9
+176.83.89.89	google+bing	334	Best bass player	1	https://www.rollingstone.com/music/music-lists/50-greatest-bassists-of-all-time-1003022/
+150.244.199.72	google+bing	282	llevar gafas protege contagio covid	6	https://www.abc.es/salud/enfermedades/abci-coronavirus-como-puedo-proteger-ojos-para-evitar-contagio-202004011455_noticia.html
+150.244.199.56	ask	332	buscadores más usados	1	https://blog.hubspot.es/marketing/buscadores-mas-utilizados
+150.244.199.133	google	259	maxwell equations	6	https://www.britannica.com/science/Maxwells-equations
+150.244.199.54	google+bing	326	por qué Alejandro Bellogin es el mejor tutor de la universidad	4	https://www.yumpu.com/es/document/view/13250931/r-information-retrieval-group-universidad-autonoma-de-madrid
+150.244.199.133	google	259	maxwell equations	7	http://www.phys.virginia.edu/classes/109N/more_stuff/Maxwell_Eq.html
+150.244.199.119	duckduckgo	336	machine learning applied to money laundring	1	https://medium.com/datadriveninvestor/artificial-intelligence-machine-learning-for-anti-money-laundering-ca896d9fe419
+150.244.199.192	duckduckgo	337	calcots submarino	2	https://en.wikipedia.org/wiki/Cal%C3%A7ot
+150.244.199.158	google+bing	340	ir ii uam	1	http://ir.ii.uam.es/
+150.244.199.239	google+bing	342	como aprender euskera en una semana	1	https://turbolangs.com/aprender-euskera-empezar/
+95.127.170.164	google+bing	341	Tercios viejo de Nápoles 	2	https://www.pinterest.es/pin/365284219752766755/
+176.83.89.89	google+bing	334	Best bass player	3	https://www.rollingstone.com/music/music-lists/rolling-stone-readers-pick-the-top-ten-bassists-of-all-time-10325/
+150.244.199.158	google+bing	340	ir ii uam	2	http://ir.ii.uam.es/publications/
+150.244.199.158	google+bing	340	ir ii uam	3	http://ir.ii.uam.es/castells/
+176.83.89.89	google+bing	334	Best bass player	4	https://www.guitarworld.com/features/the-100-best-bass-players-of-all-time
+150.244.199.144	google	232	cuanto cobra ibai	3	#
+150.244.199.158	google+bing	340	ir ii uam	4	http://ir.ii.uam.es/~alejandro/
+150.244.199.137	ask	345	duracion estado de alarma españa	1	https://www.lamoncloa.gob.es/covid-19/Paginas/estado-de-alarma.aspx
+195.135.248.133	google	323	que significa ser edgy	4	https://voydeedgy.top/que-es-el-estilo-edgy/
+95.127.170.164	google+bing	341	Tercios viejo de Nápoles 	1	https://es.wikipedia.org/wiki/Tercio_Viejo_de_N%C3%A1poles
+150.244.199.158	google+bing	340	ir ii uam	7	http://ir.ii.uam.es/~search/publications/upgrade05.pdf
+150.244.199.236	google	343	puerto 8070	1	https://es.adminsub.net/tcp-udp-port-finder/8070
+150.244.199.10	google	349	cuando se acaba el estado de alarma	1	https://www.lamoncloa.gob.es/covid-19/Paginas/estado-de-alarma.aspx
+150.244.199.119	google+bing	350	machine learning applied in finance	2	https://corporatefinanceinstitute.com/resources/knowledge/other/machine-learning-in-finance/
+195.135.248.133	google	323	que significa ser edgy	9	https://aminoapps.com/c/anime-es/page/blog/edgy-y-personajes-que-lo-son/aVKc_0unRMrgJXEMrrgbJDDXb32bB43
+150.244.199.144	google	232	cuanto cobra ibai	6	https://depor.com/depor-play/esports/twitch-cuanto-cobran-los-streamers-mas-populares-del-momento-ibai-llanos-rubius-auronplay-noticia/
+150.244.199.164	google	331	a scarlet study	1	https://scarletstudy.gq/
+150.244.199.154	google+bing	353	predict hashtags twitter	1	https://github.com/bdhingra/tweet2vec
+150.244.199.10	google	349	cuando se acaba el estado de alarma	3	https://civio.es/el-boe-nuestro-de-cada-dia/2020/11/04/la-prorroga-del-estado-de-alarma-del-9-de-noviembre-al-9-de-mayo-da-libertad-a-las-comunidades-para-levantar-o-modificar-el-toque-de-queda-nocturno/
+150.244.199.162	google	354	shingeki no kyojin  ep 8 temporada 4 online	2	https://supergoku.com/episodes/shingeki-no-kyojin-temporada-4-capitulo-8-sub-espanol/
+150.244.199.158	google	355	profe puedo ir al baño	1	https://www.eldiario.es/canariasahora/lapalmaahora/lapalmaopina/profe-puedo-ir-bano_132_1578462.html
+150.244.199.182	ask	352	f1 cambios reglamento 2022	4	https://es.motorsport.com/f1/news/cambios-tecnicos-coches-formula1-2021/4590071/
+150.244.199.137	ask	345	duracion estado de alarma españa	2	https://hayderecho.expansion.com/2020/06/21/el-fin-del-estado-de-alarma-y-ahora-que-pasa-desde-un-punto-de-vista-juridico/
+150.244.199.119	google+bing	350	machine learning applied in finance	5	https://medium.com/breathe-publication/top-10-applications-of-machine-learning-in-finance-9bfc911faf3f
+150.244.199.133	google	259	maxwell equations	8	https://byjus.com/physics/maxwells-equations/
+150.244.199.164	google	331	a scarlet study	5	https://en.wikipedia.org/wiki/A_Study_in_Scarlet
+150.244.199.133	google	259	maxwell equations	9	https://www.open.edu/openlearn/science-maths-technology/james-clerk-maxwell/content-section-4
+150.244.199.103	google+bing	358	Tabla conjugación español	2	https://conjugador.reverso.net/conjugacion-espanol.html
+150.244.199.144	google	232	cuanto cobra ibai	8	https://www.businessinsider.es/cuanto-ganan-principales-streamers-twitch-mundo-764395
+195.135.248.133	google+bing	359	rotation forest	1	https://www.researchgate.net/publication/6806976_Rotation_Forest_A_New_Classifier_Ensemble_Method
+150.244.199.172	google+bing	360	Mapa vacunación españa	1	https://www.eldiario.es/sociedad/vacuna-covid-mapas-graficos-proceso-vacunacion-espana-mundo-febrero-20_1_6782953.html
+150.244.199.239	ask	361	cronologia nombre ibai	1	https://www.conmishijos.com/nombres/ibai/
+150.244.199.158	google	355	profe puedo ir al baño	2	https://www.compartirpalabramaestra.org/actualidad/blog/profesor-puedo-ir-al-bano-o-sobre-la-igualdad-de-sexos-en-el-aula
+150.244.199.119	google+bing	350	machine learning applied in finance	10	https://fayrix.com/blog/machine-learning-in-finance
+150.244.199.103	google+bing	358	Tabla conjugación español	3	http://www.verbolog.com/conjuga.htm
+150.244.199.10	duckduckgo	364	google covid investigation	1	https://www.google.com/intl/en_uk/covid19/
+150.244.199.103	google+bing	358	Tabla conjugación español	4	http://www.iesseneca.net/iesseneca/IMG/pdf/CONJUGACION.pdf
+150.244.199.158	google	355	profe puedo ir al baño	4	https://www.tiktok.com/music/profe-puedo-ir-al-ba%C3%B1o-6538468873795015695?lang=es
+150.244.199.163	ask	315	restricciones madrid covid	4	https://www.lavanguardia.com/vida/20210222/6257344/restricciones-coronavirus-comunidad-madrid-ultimas-noticias-22-febrero-hoy-en-directo.html
+95.127.170.164	duckduckgo	370	Quién era el elefante blanco en la operación galaxia 	3	https://www.youtube.com/watch?v=pJKLCZMPNNo
+150.244.199.158	google	355	profe puedo ir al baño	6	https://www.facebook.com/nomemeschess/posts/extra%C3%B1o-decir-profe-puedo-ir-al-ba%C3%B1o-y-pum-un-paseo-tur%C3%ADstico-por-toda-la-escuel/3576356095792471/
+176.83.89.89	google	371	Trevijano	1	https://es.wikipedia.org/wiki/Antonio_Garc%C3%ADa-Trevijano
+150.244.199.236	google	369	algoritmo mas util del mundo	1	https://pijamasurf.com/2014/06/10-algoritmos-que-dominan-nuestro-mundo/
+150.244.199.192	ask	368	twitter prediction social events	3	https://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/download/10670/10500
+150.244.199.162	google+bing	365	kimetsu no yaiba season 2	5	https://as.com/meristation/2021/02/15/noticias/1613371566_125569.html
+95.127.170.164	duckduckgo	370	Quién era el elefante blanco en la operación galaxia 	8	https://www.msn.com/es-es/noticias/espana/milans-del-bosch-%E2%80%9Carmada-me-dijo-no-puedo-parar-a-tejero-esto-se-hace%E2%80%9D/ar-BB1dV3WK?li=BBpmbhJ
+150.244.199.158	google	355	profe puedo ir al baño	3	https://diccionario.reverso.net/espanol-ingles/%C2%BFPuedo+ir+al+ba%C3%B1o%2C+maestro
+150.244.199.10	duckduckgo	364	google covid investigation	3	https://github.com/GoogleCloudPlatform/covid-19-open-data
+150.244.199.97	google+bing	372	Pokemon first generation damage formula	4	https://pokemon.fandom.com/wiki/Damage_Calculation
+150.244.199.133	google	374	perturbation theory quantum mechanics	1	https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)
+150.244.199.192	ask	368	twitter prediction social events	4	https://ieeexplore.ieee.org/document/7404680
+176.83.89.89	google	371	Trevijano	6	https://elpais.com/noticias/antonio-garcia-trevijano/
+150.244.199.97	google+bing	372	Pokemon first generation damage formula	1	https://bulbapedia.bulbagarden.net/wiki/Damage
+150.244.199.103	google+bing	358	Tabla conjugación español	6	https://issuu.com/maestroselfa/docs/tablas_conjugacines_verbales
+150.244.199.72	duckduckgo	376	fernando alonso accidente 	2	https://elpais.com/elpais/2018/08/26/album/1535292607_150037.html
+150.244.199.239	ask	373	calÇot subatomico	1	https://tucalcotsubatomico.wordpress.com/
+150.244.199.54	google	377	Estado de la vacuncación en España	1	https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm
+150.244.199.97	google+bing	372	Pokemon first generation damage formula	11	https://www.reddit.com/r/TruePokemon/comments/1bp0po/pok%C3%A9mons_damage_formula_is_weird_some_thoughts_as/
+176.83.89.89	duckduckgo	378	Perseverance landing	2	https://www.youtube.com/watch?v=QBFiiEVBWvE
+150.244.199.72	duckduckgo	376	fernando alonso accidente 	3	https://www.menshealth.com/es/fitness/a35594102/fernando-alonso-entrenamiento-cuello-accidente-bicicleta/
+150.244.199.103	google+bing	358	Tabla conjugación español	8	https://es.wikipedia.org/wiki/Tiempos_verbales_en_espa%C3%B1ol
+195.135.248.133	google+bing	359	rotation forest	5	https://hub.packtpub.com/rotation-forest-classifier-ensemble-based-feature-extraction/
+176.83.89.89	duckduckgo	378	Perseverance landing	3	https://www.nytimes.com/2021/02/18/science/nasa-peseverance-mars-landing.html
+150.244.199.137	ask	345	duracion estado de alarma españa	3	https://www.uso.es/estado-de-alarma-nuevo-decreto-duracion-medidas/
+150.244.199.239	ask	373	calÇot subatomico	2	https://sites.google.com/view/elcalcotsubatomico/inicio
+150.244.199.236	ask	382	ruy lopez opening	4	https://www.ichess.net/blog/ruy-lopez-spanish-opening/
+150.244.199.56	google+bing	381	mejores auriculares cancelacion de ruido	2	https://www.pcworld.es/mejores-productos/otros-dispositivos/auriculares-cancelacion-ruido-3791092/
+150.244.199.97	google+bing	372	Pokemon first generation damage formula	11	https://www.reddit.com/r/TruePokemon/comments/1bp0po/pok%C3%A9mons_damage_formula_is_weird_some_thoughts_as/
+150.244.199.103	google+bing	358	Tabla conjugación español	9	https://www.unprofesor.com/lengua-espanola/los-tiempos-verbales-en-espanol-2749.html
+150.244.199.239	ask	373	calÇot subatomico	3	https://calcotsubatomico.wordpress.com/about/
+150.244.199.54	google	377	Estado de la vacuncación en España	2	https://www.vacunacovid.gob.es/
+150.244.199.119	google	383	functional methods applied to machine learning fields of study	1	https://iopscience.iop.org/article/10.1088/2515-7639/ab084b
+150.244.199.239	ask	373	calÇot subatomico	4	http://www.calcotsubatomico.com.es/calsots-subatomicos/
+150.244.199.243	ask	379	Calçot subatómico	1	https://tucalcotsubatomico.wordpress.com/
+176.83.89.89	duckduckgo	378	Perseverance landing	5	https://www.yahoo.com/news/nasas-perseverance-sends-pictures-landing-212245569.html
+195.135.248.133	google+bing	359	rotation forest	6	https://link.springer.com/chapter/10.1007/978-3-540-72523-7_46
+150.244.199.144	google	232	cuanto cobra ibai	9	https://www.revistagq.com/noticias/articulo/ibai-llanos-twitch-cuanto-dinero-gana-lista-mejor-pagados
+150.244.199.172	google+bing	360	Mapa vacunación españa	5	https://www.rtve.es/noticias/20210223/campana-vacunacion-espana/2062499.shtml
+150.244.199.133	google	374	perturbation theory quantum mechanics	2	#
+150.244.199.10	google+bing	390	NLP	1	https://es.wikipedia.org/wiki/Procesamiento_de_lenguajes_naturales
+150.244.199.133	google	374	perturbation theory quantum mechanics	3	https://www2.ph.ed.ac.uk/~ldeldebb/docs/QM/lect17.pdf
+150.244.199.72	google+bing	392	paraiso fiscal real madrid	1	https://www.elconfidencial.com/deportes/futbol/2021-02-23/real-madrid-football-leaks-providence-caiman-paraisos-fiscales_2962063/
+150.244.199.72	google	391	paraiso fiscal real madrid	1	https://www.elconfidencial.com/deportes/futbol/2021-02-23/real-madrid-football-leaks-providence-caiman-paraisos-fiscales_2962063/
+150.244.199.162	google+bing	388	kimetsu no yaiba mugen train	8	https://www.imdb.com/title/tt11032374/
+195.135.248.133	google+bing	359	rotation forest	7	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6304-y
+150.244.199.239	google+bing	394	ataraxico	3	https://www.lexico.com/es/definicion/ataraxico
+150.244.199.119	ask	397	kernel methods in machine learning state of art	1	https://arxiv.org/pdf/math/0701907
+176.83.89.89	duckduckgo	378	Perseverance landing	5	https://www.yahoo.com/news/nasas-perseverance-sends-pictures-landing-212245569.html
+195.135.248.133	google+bing	359	rotation forest	7	https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6304-y
+150.244.199.121	google	399	algortimo simplex	1	https://es.wikipedia.org/wiki/Algoritmo_s%C3%ADmplex
+150.244.199.192	ask	398	twitter prediction social events 2020	2	https://www.sciencedirect.com/science/article/pii/S0968090X20308354
+150.244.199.162	google+bing	388	kimetsu no yaiba mugen train	1	https://www.filmaffinity.com/es/film164016.html
+150.244.199.10	google+bing	395	NLP google models	1	https://cloud.google.com/natural-language?hl=es
+176.83.89.89	duckduckgo	378	Perseverance landing	5	https://www.yahoo.com/news/nasas-perseverance-sends-pictures-landing-212245569.html
+150.244.199.163	ask	315	restricciones madrid covid	5	https://www.eldiario.es/madrid/comunidad-madrid-levanta-restricciones-31-zonas-sanitarias-siete-localidades_1_7233809.html
+150.244.199.182	ask	352	f1 cambios reglamento 2022	6	https://as.com/motor/2020/05/29/formula_1/1590740382_367031.html
+150.244.199.103	google+bing	358	Tabla conjugación español	9	https://www.unprofesor.com/lengua-espanola/los-tiempos-verbales-en-espanol-2749.html
+150.244.199.137	google	400	mejores rutinas calistenia	1	https://todocalistenia.com/rutina-calistenia/
+150.244.199.163	ask	315	restricciones madrid covid	6	https://www.elconfidencial.com/espana/coronavirus/2021-02-19/guia-restricciones-madrid-zonas-basicas-toque-queda_2909035/
+150.244.199.239	ask	407	ageusia covid	1	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7386364/
+150.244.199.133	google	374	perturbation theory quantum mechanics	4	https://cds.cern.ch/record/1338938/files/978-3-540-85316-9_BookBackMatter.pdf
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	2	https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f
+176.83.89.89	google+bing	409	James webb telescope	1	https://es.wikipedia.org/wiki/Telescopio_espacial_James_Webb
+150.244.199.158	ask	411	gafas de oscuridad	1	https://www.amazon.es/gafas-vision-nocturna/s?k=gafas+vision+nocturna&af=%7B%22quartzVehicle%22%3A%2220-283%22%2C%22replacementKeywords%22%3A%22gafas+nocturna%22%7D
+176.83.89.89	google+bing	409	James webb telescope	2	https://www.esa.int/Space_in_Member_States/Spain/El_telescopio_espacial_James_Webb_se_lanzara_en_octubre_de_2021
+150.244.199.158	ask	411	gafas de oscuridad	1	https://www.amazon.es/gafas-vision-nocturna/s?k=gafas+vision+nocturna&af=%7B%22quartzVehicle%22%3A%2220-283%22%2C%22replacementKeywords%22%3A%22gafas+nocturna%22%7D
+150.244.199.158	ask	411	gafas de oscuridad	1	https://www.amazon.es/gafas-vision-nocturna/s?k=gafas+vision+nocturna&af=%7B%22quartzVehicle%22%3A%2220-283%22%2C%22replacementKeywords%22%3A%22gafas+nocturna%22%7D
+150.244.199.144	duckduckgo	414	goku super saiyan 5	1	https://www.youtube.com/watch?v=QptGSoGpI0E
+150.244.199.56	google	415	vacunacion en españa	1	https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm
+150.244.199.121	google	412	cuantas vacunas se han puesto en españa	1	https://www.elmundo.es/ciencia-y-salud/salud/2021/01/29/60141474fc6c834e268b4666.html
+150.244.199.158	ask	411	gafas de oscuridad	2	https://www.amazon.es/lentes-vision-nocturna/s?k=lentes+vision+nocturna&af=%7B%22quartzVehicle%22%3A%2220-283%22%2C%22replacementKeywords%22%3A%22lentes+nocturna%22%7D
+150.244.199.144	duckduckgo	414	goku super saiyan 5	2	https://dragonballaffanon.fandom.com/wiki/Super_Saiyan_5
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	4	http://web.engr.oregonstate.edu/~tgd/publications/mcs-ensembles.pdf
+150.244.199.119	google	416	functional data state of art	2	http://www.seio.es/BEIO/A-present-overview-on-functional-data-analysis-2.html
+150.244.199.10	duckduckgo	419	mascarillas amazon	1	https://www.amazon.es/mascarillas-respiradores/b?ie=UTF8&node=3051796031
+150.244.199.158	ask	411	gafas de oscuridad	1	https://www.amazon.es/gafas-vision-nocturna/s?k=gafas+vision+nocturna&af=%7B%22quartzVehicle%22%3A%2220-283%22%2C%22replacementKeywords%22%3A%22gafas+nocturna%22%7D
+150.244.199.99	google	421	make homemade bow	2	https://www.wikihow.com/Make-a-Homemade-Bow
+150.244.199.54	google	377	Estado de la vacuncación en España	3	https://www.eldiario.es/sociedad/vacuna-covid-mapas-graficos-proceso-vacunacion-espana-mundo-febrero-23_1_6782953.html
+150.244.199.103	google+bing	423	Coche más rápido barato	1	https://es.motor1.com/features/234175/coches-segunda-mano-potentes-baratos/
+150.244.199.54	google	377	Estado de la vacuncación en España	4	https://elpais.com/sociedad/2021-02-20/asi-evoluciona-la-vacunacion-contra-la-covid-en-espana-y-en-el-mundo.html
+176.83.89.89	google	422	James webb telescope launch date	3	https://www.nasa.gov/press-release/nasa-announces-new-james-webb-space-telescope-target-launch-date
+150.244.199.162	ask	420	ecuaciones de maxwell	5	http://hyperphysics.phy-astr.gsu.edu/hbasees/electric/maxeq.html
+150.244.199.54	google	377	Estado de la vacuncación en España	6	https://www.abc.es/sociedad/abci-vacunacion-espana-vacunas-coronavirus-datos-nsv-202102171044_noticia.html
+176.83.89.89	google	422	James webb telescope launch date	4	https://es.wikipedia.org/wiki/Telescopio_espacial_James_Webb
+150.244.199.154	google+bing	353	predict hashtags twitter	2	https://wayneyuwu.com/paper/icomp_hashtag.pdf
+150.244.199.54	google	377	Estado de la vacuncación en España	8	https://www.rtve.es/alacarta/audios/24-horas/estado-vacunacion-contra-covid-19-espana/5779264/
+150.244.199.192	ask	398	twitter prediction social events 2020	9	https://arxiv.org/pdf/1805.00358
+150.244.199.54	google	377	Estado de la vacuncación en España	7	https://lab.rtve.es/lab/vacunacion-espana-coronavirus/
+150.244.199.239	duckduckgo	428	murciélago de herradura	1	https://animalesexotico.org/murcielagos/herradura-nariz-cerdo/
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	9	https://www.researchgate.net/publication/298606994_Ensemble_methods_in_machine_learning
+150.244.199.164	duckduckgo	385	pc gamer	1	https://www.pcgamer.com/
+150.244.199.137	google	427	best raspberry pi projects	2	https://www.ubuntupit.com/20-best-raspberry-pi-projects-that-you-can-start-right-now/
+150.244.199.158	ask	411	gafas de oscuridad	4	https://www.airelibre.es/324-gafas-de-vision-nocturna
+150.244.199.163	ask	430	medidas castilla la mancha	1	https://www.castillalamancha.es/actualidad/notasdeprensa/el-gobierno-de-castilla-la-mancha-decreta-medidas-especiales-nivel-2-en-toda-la-comunidad-ante-el
+150.244.199.158	ask	411	gafas de oscuridad	3	https://elgranobservatorio.com/gafas-vision-nocturna/
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	10	https://link.springer.com/chapter/10.1007/3-540-45014-9_1
+150.244.199.158	ask	411	gafas de oscuridad	5	https://tiendamilitaronline.com/gafas-de-vision-nocturna-militares/
+150.244.199.236	google	431	glicko metric	1	https://en.wikipedia.org/wiki/Glicko_rating_system
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	16	https://www.datacamp.com/community/tutorials/ensemble-learning-python
+150.244.199.133	google	374	perturbation theory quantum mechanics	5	https://link.springer.com/10.1007/978-0-387-30440-3_402
+150.244.199.158	ask	411	gafas de oscuridad	6	https://clipset.com/glospex-gafas-de-luz-para-ver-en-la-oscuridad/
+150.244.199.10	google+bing	436	spotify	1	https://www.spotify.com/es/
+150.244.199.54	duckduckgo	437	Cuando es el Madrid Atalanta	3	https://elbocon.pe/internacional/ver-real-madrid-vs-atalanta-en-vivo-como-y-donde-ver-la-champions-league-via-espn-en-vivo-horarios-real-madrid-atalanta-en-directo-movistar-liga-de-campeones-mitele-plus-online-tudn-en-vivo-univision-online-pronostico-y-prediccion-ar-cl-es-usa-estados-unidos-mx-co-noticia/
+150.244.199.162	duckduckgo	438	x-vectors	3	https://github.com/topics/x-vector
+150.244.199.172	google+bing	441	Elecciones catalanas	1	https://elpais.com/noticias/elecciones-catalanas/
+150.244.199.158	ask	411	gafas de oscuridad	6	https://clipset.com/glospex-gafas-de-luz-para-ver-en-la-oscuridad/
+150.244.199.163	ask	430	medidas castilla la mancha	3	https://www.abc.es/espana/castilla-la-mancha/toledo/abci-nuevas-medidas-menos-restrictivas-entraran-vigor-lunes-castilla-la-mancha-202102161238_noticia.html
+150.244.199.103	google+bing	423	Coche más rápido barato	3	https://www.autopista.es/noticias-motor/los-5-coches-mas-baratos-que-te-dan-mas-alegrias-al-volante_136711_102.html
+150.244.199.192	google	445	analyse city events with twitter	1	https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1010&context=cs_gradproj
+176.83.89.89	google	446	Eps uam	1	http://www.uam.es/EPS/Home.htm?language=es
+150.244.199.162	duckduckgo	438	x-vectors	6	https://www.x-vector.com/
+150.244.199.192	google	445	analyse city events with twitter	2	https://arxiv.org/abs/1705.09975
+150.244.199.162	duckduckgo	438	x-vectors	10	https://www.researchgate.net/publication/327812023_X-Vectors_Robust_DNN_Embeddings_for_Speaker_Recognition
+150.244.199.192	google	445	analyse city events with twitter	3	https://arxiv.org/pdf/1901.00570
+176.83.89.89	google+bing	447	Eps uam	4	https://www.uam.es/EPS/Matricula/1242660774988.htm
+150.244.199.172	google+bing	441	Elecciones catalanas	2	https://elpais.com/espana/elecciones-catalanas/2021-02-18/resultados-de-las-elecciones-catalanas-y-reacciones-de-los-partidos-en-directo.html
+150.244.199.72	google	391	paraiso fiscal real madrid	2	https://as.com/futbol/2021/02/22/primera/1613988418_250434.html
+150.244.199.54	duckduckgo	437	Cuando es el Madrid Atalanta	16	https://news.google.com/stories/CAAqogEICiKbAUNCSVNiam9KYzNSdmNua3RNell3U21FS0VRaUw2dGJqbDRBTUVZNE9lQ3dDMGNmcUVreEJkR0ZzWVc1MFlTQjJjeTRnVW1WaGJDQk5ZV1J5YVdRZ3dyY2dUMk4wWVhadmN5QmtaU0JtYVc1aGJDREN0eUJNYVdkaElHUmxJRU5oYlhCbGIyNWxjeUJrWlNCc1lTQlZSVVpCS0FBUAE?hl=es-419&gl=VE&ceid=VE%3Aes-419
+150.244.199.182	google+bing	448	prevision tiempo madrid	1	https://www.eltiempo.es/madrid.html
+195.135.248.133	duckduckgo	408	ensemble learning methods machine learning	17	https://github.com/topics/ensemble-machine-learning
+176.83.89.89	google+bing	454	Por que la uam es mejor que la upm informqtica	1	https://foro.noticias3d.com/vbulletin/showthread.php?t=227504
+150.244.199.243	duckduckgo	451	NBA resultados 	1	https://www.espn.com.ve/basquetbol/nba/resultados
+150.244.199.137	google	427	best raspberry pi projects	3	https://all3dp.com/1/best-raspberry-pi-projects/
+176.83.89.89	duckduckgo	457	Por que la uam es mejor que la upm informatica	1	https://www.uam.es/
+176.83.89.89	google+bing	454	Por que la uam es mejor que la upm informqtica	2	https://yaq.es/foro/la-universidad-un-mundo/informatica-la-uam-o-la-upm
+176.83.89.89	google	453	Por que la uam es mejor que la upm informqtica	1	https://foro.noticias3d.com/vbulletin/showthread.php?t=227504
+150.244.199.192	duckduckgo	459	event detection in twitter	3	http://rali.iro.umontreal.ca/rali/sites/default/files/publis/Atefeh_et_al-2013-Computational_Intelligence-2.pdf
+176.83.89.89	google+bing	454	Por que la uam es mejor que la upm informqtica	3	https://www.lavanguardia.com/local/madrid/20180509/443455530662/la-complutense-la-autonoma-y-la-politecnica-entre-las-7-primeras-de-espana.html
+89.130.89.159	bing	1	griffith did nothing wrong		
+150.244.199.72	bing	4	cuánto cobra un jugador profesional de fútbol sala		
+150.244.199.158	bing	8	Ingredientes tartaletas mercadona		
+150.244.199.158	bing	10	Ingredientes tartaletas mercadona		
+150.244.199.158	bing	15	Ingredientes tartaletas mercadona		
+150.244.199.182	bing	16	f1 sprint race format		
+150.244.199.158	bing	19	Gargantua		
+150.244.199.32	google	21			
+150.244.199.32	ask	26	data science		
+150.244.199.32	bing	29	applications of game theory		
+150.244.199.32	bing	30	applications of game theory		
+150.244.199.32	bing	31	game theory		
+150.244.199.158	bing	32	Marioneta rosaverde		
+150.244.199.158	bing	33	Marioneta rosaverde		
+150.244.199.32	google	34	importance		
+150.244.199.158	duckduckgo	35	Marioneta rosaverde		
+150.244.199.162	duckduckgo	37	coronavirus madrid incidencia		
+150.244.199.158	bing	39	Alejandro Cabana		
+150.244.199.32	ask	40	algoritmo		
+150.244.199.158	google+bing	43	Alejandro Cabana		
+150.244.199.10	bing	52	como enriquecer uranio		
+95.127.170.164	bing	55	Batalla de rocroi 		
+150.244.199.236	bing	62	schwartz pick interpolation		
+176.83.89.89	bing	66	kg&tlw		
+150.244.199.192	bing	76	estadisticas campazo nba		
+176.83.89.89	bing	77	William adams		
+150.244.199.192	duckduckgo	78	estadisticas campazo nba		
+150.244.199.192	google	79	estadisticas campazo nba		
+176.83.89.89	ask	80	William adams		
+37.10.149.120	bing	82	Elden ring release date		
+150.244.199.158	bing	84	Ratón blanco		
+150.244.199.72	bing	88	convocatoria real madrid atalanta		
+150.244.199.182	bing	90	partidos champions league		
+95.127.170.164	bing	95	Algoritmo más útil del mundo		
+176.83.89.89	google+bing	98	Battle of sekigahara		
+150.244.199.162	ask	102	prueba de drogas a antidisturbios barcelona		
+150.244.199.32	bing	104	villaricos		
+95.127.170.164	google	106	Algoritmo más útil del mundo		
+150.244.199.32	bing	108	villaricos		
+37.10.149.120	google	110	Cierre poblacion madrid		
+150.244.199.32	ask	111	modelo		
+150.244.199.236	bing	112	geometric median		
+150.244.199.32	google	116	dreambeach		
+150.244.199.162	bing	118	se hace prueba de drogas a los agentes antidisturbios?		
+150.244.199.133	bing	121	einstein field equations		
+150.244.199.163	bing	123	receta quiche salmon ahumado		
+150.244.199.32	bing	127	villaricos		
+150.244.199.137	bing	128	dallas vs boston		
+150.244.199.119	bing	132	medidas covid castilla la mancha guadalajaradiario		
+150.244.199.164	google	134	nuevas tecnologias innovadores 2021		
+150.244.199.97	bing	142	griffith did nothing wrong		
+150.244.199.162	bing	143	puente mas antiguo de madrid		
+150.244.199.154	bing	146	datasets agricultura españa 2020 datos.gob.es		
+150.244.199.162	bing	148	puente de toledo mas antiguo		
+150.244.199.164	ask	150	como hacer un website		
+150.244.199.162	bing	151	puente de toledo		
+150.244.199.162	google	152	madrid		
+176.83.89.89	bing	154	Mishima		
+150.244.199.162	duckduckgo	157	puente de toledo		
+176.83.89.89	duckduckgo	158	Mishima		
+150.244.199.137	bing	159	dallas vs boston		
+150.244.199.158	duckduckgo	160	mascarilla ffp5		
+150.244.199.103	bing	161	Covid Madrid situacion		
+150.244.199.137	ask	163	dallas vs boston		
+150.244.199.56	bing	164	master universitario en ciencia de datos uam		
+37.10.149.120	bing	165	Cierre perimetral San Sebastián de los reyes		
+150.244.199.164	google	166	how to write great stories		
+150.244.199.239	bing	170	ejercicios resueltos diodos circuitos electrónicos		
+150.244.199.162	duckduckgo	171	como murio durruto		
+150.244.199.72	bing	172	mascarilla ffp3 precio		
+150.244.199.236	google	178	calçot subatómico		
+150.244.199.164	ask	180	the fermi paradox		
+150.244.199.164	google	189	omnipotencia paradoja		
+150.244.199.144	bing	190	por qué los billetes de ave son tan caros		
+150.244.199.164	bing	197	the usa capitol attack 2021		
+95.127.170.164	ask	198	Cuando se termina el covid 19		
+150.244.199.164	google+bing	200	the usa capitol attack 2021		
+150.244.199.158	bing	204	Spiderman Phone Home		
+150.244.199.158	ask	206	Spiderman Phone Home		
+150.244.199.144	bing	207	how to get indexed in google scholar		
+150.244.199.158	ask	211	Spiderman new movie		
+150.244.199.164	ask	214	quantic computer 2021		
+150.244.199.236	bing	216	teorema aplicación abierta		
+150.244.199.154	bing	220	excedentes agricolas MAPA		
+150.244.199.164	google	223	nuclear fission breakthroughs		
+150.244.199.154	duckduckgo	224	agricultura MAPA		
+195.135.248.133	bing	227	andorra es un paraiso fiscal		
+150.244.199.243	bing	231	Real Madrid alineación hoy		
+150.244.199.144	google+bing	233	cuanto cobra ibai		
+150.244.199.121	bing	235	keyforge 4		
+150.244.199.239	bing	237	quien es grisha jaeger		
+150.244.199.97	bing	244	griffith did nothing wrong		
+150.244.199.32	google+bing	249	problemas del sigl		
+150.244.199.32	google	251	problemas del siglo		
+150.244.199.103	google	254	Cómo hacer una pizza 		
+150.244.199.164	duckduckgo	257	tecnologias para alimentacion		
+150.244.199.133	bing	258	maxwell equations		
+150.244.199.99	google+bing	261	tame  valheim		
+150.244.199.164	google+bing	264	the promised neverland		
+150.244.199.97	google+bing	266	Griffith		
+176.83.89.89	bing	274	Chin ups vs pull ups		
+176.83.89.89	bing	275	Chin ups vs pull ups		
+150.244.199.164	google	276	how to write psychological conflicts		
+176.83.89.89	bing	278	Chin ups vs pull ups		
+150.244.199.72	duckduckgo	281	llevar gafas protege contagio covid		
+150.244.199.97	duckduckgo	285	Berserker		
+150.244.199.239	bing	286	estado del arte del procesamiento del lenguaje natural en novelas		
+150.244.199.164	duckduckgo	288	traumatic amnesia 		
+95.127.170.164	ask	290	Calçot subatomico 		
+150.244.199.239	duckduckgo	291	procesamiento del lenguaje natural en novelas		
+150.244.199.158	bing	293	Juegos olimpicos 2020		
+150.244.199.158	bing	294	Juegos olimpicos 2020		
+150.244.199.192	duckduckgo	296	pablo castells		
+150.244.199.239	ask	298	natural languaje processing in novels		
+150.244.199.137	bing	300	himno del betis		
+150.244.199.119	google	305	stochastical process differential equations		
+150.244.199.56	bing	310	np.linalg.svd example		
+150.244.199.10	bing	311	facebook salary		
+150.244.199.239	bing	312	analyze novel using natural language proccesing		
+150.244.199.56	bing	313	np.linalg.svd example		
+150.244.199.100	ask	318	Espionaje con delfines		
+150.244.199.164	ask	319	sherlock holmes		
+150.244.199.162	bing	321	calçot subatomico		
+150.244.199.10	bing	322	best ide 2021		
+150.244.199.10	bing	324	best ide 2021		
+150.244.199.99	google	327	valheim release		
+150.244.199.164	bing	328	a scarlet study		
+150.244.199.162	bing	330	motos segunda mano		
+150.244.199.158	google+bing	333	comprar universidad de segunda mano		
+150.244.199.243	duckduckgo	335	Anthony Davis lesion		
+95.127.170.164	google	338	Tercios de Flandes 		
+150.244.199.162	google	339	shingeki no kiojin 		
+150.244.199.103	bing	344	Aprender el castellano		
+150.244.199.162	ask	346	shingeki no kyojin  ep 8 		
+95.127.170.164	google+bing	347	Tercios viejo de Nápoles 		
+150.244.199.103	duckduckgo	348	Aprender el castellano		
+150.244.199.162	google	351	shingeki no kyojin  ep 8 temporada 4		
+150.244.199.103	bing	356	Tabla conjugación español		
+150.244.199.103	duckduckgo	357	Tabla conjugación español		
+150.244.199.162	bing	362	kimetsu no yaiba season 2 date release		
+150.244.199.103	ask	363	Tabla conjugación español		
+150.244.199.103	google	366	Tabla conjugación español		
+95.127.170.164	bing	367	Quién era el elefante blanco en la operación galaxia 		
+95.127.170.164	ask	375	Quién era el elefante blanco en la operación galaxia 		
+150.244.199.119	bing	380	functional methods applied to machine learning fields of study		
+150.244.199.100	google+bing	384	es la leche con cereales una sopa		
+150.244.199.103	google+bing	386	Tabla conjugación español		
+150.244.199.162	bing	387	kimetsu no yaiba Mugen Train		
+150.244.199.236	ask	389	learning openings with masters games or players at your level		
+150.244.199.239	bing	393	ataraxico		
+150.244.199.121	bing	396	algortimo simplex		
+150.244.199.236	google	401	learning chess openings with masters games or players at your level		
+150.244.199.239	bing	402	ageusia		
+150.244.199.239	google+bing	403	ageusia		
+150.244.199.103	google	404	Tabla conjugación español		
+150.244.199.243	ask	405	Xqc Minecraft record		
+150.244.199.158	ask	406	profe puedo ir al baño		
+150.244.199.10	ask	410	NLP state of the art models		
+150.244.199.56	bing	413	vacunacion en españa		
+150.244.199.10	bing	417	mascarillas amazon		
+150.244.199.162	bing	418	ecuaciones de maxwell		
+150.244.199.243	google	424	NBA		
+150.244.199.137	ask	425	best raspberry pi proyects		
+150.244.199.10	duckduckgo	426	mascarillas ebay		
+150.244.199.10	bing	429	mascarillas covid ebay		
+150.244.199.97	google	432	griffith did nothing wrong		
+150.244.199.162	bing	433	x-vectors		
+150.244.199.162	bing	434	x-vectors		
+150.244.199.172	bing	435	Elecciones catalanas		
+150.244.199.172	bing	439	Elecciones catalanas		
+150.244.199.192	bing	440	analyse city events with twitter		
+176.83.89.89	duckduckgo	442	Eps		
+150.244.199.97	google+bing	443	griffith did nothing wrong		
+150.244.199.192	ask	444	analyse city events with twitter		
+176.83.89.89	ask	449	Por que la uam es mejor que la upm		
+150.244.199.10	bing	450	our world in data covid		
+150.244.199.119	duckduckgo	452	applied kernel methods		
+150.244.199.99	google	455	viking house		
+150.244.199.236	duckduckgo	456	como funciona glicko		
+150.244.199.192	ask	458	event detection in twitter		
+150.244.199.56	ask	460	estimador nederaya-watson		
+150.244.199.164	duckduckgo	461	goat abbreviation meaning		
+150.244.199.56	ask	462	estimador nederaya-watson		
+150.244.199.103	google	463	Búsqueda		
+150.244.199.103	ask	464	Búsqueda		
+150.244.199.56	bing	465	estimador nederaya-watson		
+150.244.199.54	google	466	Quien es mejor extremo izquierdo, Vinicius o Pablo Castells		
