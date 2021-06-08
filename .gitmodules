@@ -16,9 +16,6 @@
 [submodule "TI/Practica"]
 	path = TI/Practica
 	url = https://github.com/Ludvins/Practicas_TI
-[submodule "APPIB"]
-	path = APPIB
-	url = https://github.com/antcc/practicas-biometria
 [submodule "AR"]
 	path = AR
 	url = https://github.com/antcc/reinforcement-learning
