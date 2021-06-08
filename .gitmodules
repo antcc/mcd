@@ -25,3 +25,6 @@
 [submodule "PIT"]
 	path = PIT
 	url = https://github.com/antcc/practicas-pit
+[submodule "APPIB"]
+	path = APPIB
+	url = https://github.com/antcc/practicas-biometria
