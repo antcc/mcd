@@ -1,6 +1,6 @@
-# Máster en Ciencia de Datos (UAM)
+# Máster en Ciencia de Datos ([UAM](https://www.uam.es/EPS/MasterCD/1446800691531.htm))
 
-[Curso 2020/21](https://www.uam.es/EPS/MasterCD/1446800691531.htm).
+Ejercicios, prácticas y exámenes del curso 2020/21. La mayoría realizados junto a [@Ludvins](https://github.com/Ludvins).
 
 **CN**: Computación Numérica.     
 **GD**: Gestión de Datos.       
@@ -19,4 +19,3 @@
 **OPTIM**: Optimización.     
 **PICDD**: Proyecto de Investigación en Ciencia de Datos.    
 **PIT**: Procesamiento de Información Temporal.   
-
