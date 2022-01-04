@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=magenta}
+\setlength{\parindent}{0in}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[english]{babel}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{engord}
+\usepackage{parskip}
+\usepackage{minted}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[compact]{titlesec}
+\usepackage[center]{caption}
+\usepackage{placeins}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{minted}
+\usepackage{subfigure}
+\usepackage{pdfpages}
+% \titlespacing*{\subsection}{0pt}{5.5ex}{3.3ex}
+% \titlespacing*{\section}{0pt}{5.5ex}{1ex}
+\author{Antonio Coín Castro}
+\date{13 de enero de 2021}
+\title{Examen PE Tiempo Continuo}
+\hypersetup{
+ pdfauthor={Antonio Coín Castro},
+ pdftitle={Examen PE Tiempo Continuo},
+ pdfkeywords={},
+ pdfsubject={},
+ pdflang={Spanish}}
+
+% \usemintedstyle{bw}
+
+\begin{document}
+
+\maketitle
+
+\section*{Ejercicio 1}\\
+
+\textbf{a)} La matriz de transición asociada al proceso de saltos subyacente viene dada por las probabilidades de transición entre los estados:
+\[
+\tilde P = (p_{ij}) =\begin{pmatrix}
+  0 & 1 & 0\\
+  0 & 0 & 1\\
+  1/2 & 1/2 & 0
+\end{pmatrix}.
+\]
+
+\textbf{b)} Para hallar la distribución estacionaria $\tilde \pi=(\tilde \pi_1, \tilde \pi_2,\tilde \pi_3)$ del proceso de saltos (si es que existe), debemos resolver el sistema $\tilde \pi P=\tilde \pi$:
+\[
+(\tilde \pi_1 \ \tilde \pi_2 \ \tilde \pi_3)=\begin{pmatrix}
+  0 & 1 & 0\\
+  0 & 0 & 1\\
+  1/2 & 1/2 & 0
+\end{pmatrix}=(\tilde \pi_1 \ \tilde \pi_2 \ \tilde \pi_3).
+\]
+
+De este sistema obtenemos las siguientes ecuaciones:
+\[
+\begin{cases}
+  \displaystyle
+  \frac{\tilde \pi_3}{2} = \tilde \pi_1,\\
+  \displaystyle \tilde \pi_1 + \frac{\tilde \pi_3}{2}=\tilde \pi_2,\\
+  \tilde \pi_2 = \tilde \pi_3.
+\end{cases}
+\]
+
+Dada la tercera ecuación, la primera y la segunda son equivalentes, por lo que para resolver el sistema deben cumplirse las condiciones $\tilde \pi_3 = 2\tilde \pi_1$ y $\tilde \pi_3=\tilde \pi_2$. Es decir, todas las soluciones vienen dadas en función del parámetro $\mu \in \mathbb R$ por el vector
+\[
+\left(\frac{\mu}{2}, \mu, \mu\right).
+\]
+
+Finalmente obtenemos la distribución estacionaria imponiendo la condición de normalización $\tilde \pi_1 + \tilde \pi_2 + \tilde \pi_3 = 1$:
+\[
+\tilde \pi = \frac{1}{\frac{\mu}{2} + \mu + \mu}\left(\frac{\mu}{2}, \mu, \mu\right) = \left( \frac{1}{5}, \frac{2}{5},\frac{2}{5}\right).
+\]
+
+\textbf{c)} Para derivar la distribución estacionaria $\pi=(\pi_1, \pi_2, \pi_3)$ para la cadena de Markov en tiempo continuo aplicamos la siguiente identidad:
+\begin{equation}
+  \label{eq:estacionaria}
+\pi_j=\frac{\dfrac{\tilde \pi_j}{\lambda_j}}{S}, \quad j=1,2,3, \quad \text{donde } S = \sum_{k=1}^3 \frac{\tilde \pi_k}{\lambda_k}.
+\end{equation}
+
+En nuestro caso, tenemos
+\[
+S=\frac{1}{10} + \frac{2}{5} + \frac{2}{15} = \frac{19}{30},
+\]
+
+y por tanto la distribución estacionaria de la cadena de Markov es:
+\[
+\pi=\frac{30}{19}\left( \frac{1}{10}, \frac{2}{5}, \frac{2}{15}\right) = \left( \frac{3}{19}, \frac{12}{19}, \frac{4}{19}\right).
+\]
+
+\textbf{d)} Para hallar el generador infinitesimal $G=(g_{ij})$ aplicamos la fórmula
+\[
+g_{ij}=\begin{cases}
+  \lambda_ip_{ij}, & i\neq j,\\
+  -\lambda_i, & i=j.
+\end{cases}
+\]
+
+Así, el generador infinitesimal es:
+\[
+G=\begin{pmatrix}
+  -2 & 2 & 0\\
+  0 & -1 & 1\\
+  3/2 & 3/2 & -3
+\end{pmatrix}.
+\]
+
+\textbf{e)} Utilizamos el hecho de que la distribución estacionaria de una cadena de Markov en tiempo continuo con generador infinitesimal es $\pi$ si y solo si $\pi^TG=0$. Así, resolvemos el sistema:
+\[
+\pi^TG=0 \implies (\pi_1 \ \pi_2 \ \pi_3)\begin{pmatrix}
+  -2 & 2 & 0\\
+  0 & -1 & 1\\
+  3/2 & 3/2 & -3
+\end{pmatrix} = 0.
+\]
+
+Obtenemos las siguientes ecuaciones:
+\[
+\begin{cases}
+  \displaystyle -2\pi_1 + \frac{3}{2}\pi_3=0,\\
+  \displaystyle 2\pi_1 -\pi_2+\frac{3}{2}\pi_3=0,\\
+  \displaystyle \pi_2-3\pi_3=0.
+\end{cases}
+\]
+
+De nuevo, dada la última ecuación, las dos primeras son equivalentes, luego se deben cumplir las condiciones $2\pi_1=\frac{3}{2}\pi_3$ y $\pi_2=3\pi_3$, por lo que todas las soluciones vienen dadas en forma paramétrica como
+\[
+\left(\frac{3}{4}\mu, 3\mu, \mu \right), \quad \mu \in \mathbb R.
+\]
+
+Por último, como $\pi$ debe ser una verdadera distribución, imponemos la condición de normalización para obtener la distribución estacionaria:
+\[
+\pi = \frac{1}{\frac{3}{4}\mu + 3\mu + \mu}\left(\frac{3}{4}\mu, 3\mu, \mu \right) = \left(\frac{3}{19}, \frac{12}{19}, \frac{4}{19} \right).
+\]
+
+Vemos que, como esperábamos, esta distribución estacionaria es la misma que hemos obtenido por otros medios en el apartado \textbf{c)}.
+
+\textbf{h)} En general, la distribución estacionaria $\tilde \pi$ del proceso de saltos subyacente a una cadena de Markov, y la distribución estacionaria $\pi$ de la propia cadena de Markov \textbf{no coinciden} (por ejemplo, vemos que las distribuciones calculadas en los apartados \textbf{b)} y \textbf{c)} no coinciden). De hecho, ya sabemos que la relación entre ellas viene dada por la expresión \eqref{eq:estacionaria}, por lo que una condición suficiente para que coincidan es que $\lambda_i=\lambda$ para todo $i$. En efecto, en ese caso se tiene:
+\[
+\pi = \frac{\displaystyle \frac{1}{\lambda}\tilde\pi}{\displaystyle \frac{1}{\lambda} \sum \tilde \pi_j}=\tilde\pi, \quad \text{ya que } \sum \tilde \pi_j = 1.
+\]
+
+Así, una CMTC en la que coinciden ambas distribuciones sería por ejemplo la misma cadena del enunciado, pero considerando $\lambda_1=\lambda_2=\lambda_3=1$.\\
+
+\section*{Ejercicio 3}
+
+\textbf{d)} Consideramos el cambio de variable $Y(t)=\phi(t, X(t))=X(t)^2$. El lema de Itô nos dice entonces que los coeficientes de la ecuación estocástica asociada a $Y(t)$ vienen dados por:
+\[
+\begin{cases}
+  \tilde a(t, X(t))=\phi_t(t, X(t)) + \phi_x(t,X(t))a(t, X(t)) + \frac{1}{2}\phi_{xx}(t, X(t))b(t, X(t))^2,\\
+  \tilde b(t, X(t))=\phi_x(t, X(t))b(t, X(t)).
+\end{cases}
+\]
+
+En nuestro caso, $a(t, X(t))=-\alpha X(t)$ y $b(t, X(t))=\xi$, luego nos queda:
+\[
+\begin{cases}
+  \tilde a(t, X(t))=-2\alpha X(t)^2 + \xi^2,\\
+  \tilde b(t, X(t))=2\xi X(t).
+\end{cases}
+\]
+
+Por tanto, la ecuación diferencial estocástica para $Y(t)$ es:
+\begin{equation}
+  \label{eq:yt}
+dY(t)= (-2\alpha X(t)^2 + \xi^2)\, dt + 2\xi X(t)\, dW(t) = (-2\alpha Y(t) + \xi^2)\, dt + 2\xi \sqrt{Y(t)}\, dW(t).\\
+\end{equation}
+
+\textbf{e)} Procedemos a derivar una ecuación diferencial ordinaria para $\mathbb E[Y(t)]$. Tomando esperanzas en \eqref{eq:yt} y utilizando sus propiedades, se tiene:
+\[
+d \mathbb E[Y(t)] = (-2\alpha\mathbb E[Y(t)]+\xi^2)\, dt,
+\]
+ya que la esperanza de $W(t)$ es 0. Podemos resolver esta EDO utilizando el método de separación de variables:
+\[
+\int_{Y_0}^{\mathbb E[Y(t)]}\frac{d\mathbb E[Y(t)]}{\mathbb E[Y(t)]-\dfrac{\xi^2}{2\alpha}}=-2\alpha \int_{t_0}^t d\tau \implies
+\]
+\[
+\log(\mathbb E[Y(t)] - \frac{\xi^2}{2\alpha}) = -2\alpha(t-t_0) + \log(Y_0 - \frac{\xi^2}{2\alpha}) \implies
+\]
+\[
+\mathbb E[Y(t)]=e^{-2\alpha(t-t_0)}\left(Y_0 - \frac{\xi^2}{2\alpha}\right) + \frac{\xi^2}{2\alpha}.
+\]
+
+Además, sabemos que $Y_0=X_0^2=(\sigma_0-\sigma_{\infty})^2$.
+
+\textbf{f)} Procedemos primero a deshacer el cambio de variables para $\mathbb E[Y(t)]$ en función de $\sigma(t)$. Tenemos:
+\[
+\mathbb E[Y(t)] = \mathbb E[X^2(t)] = \mathbb E[(\sigma(t) - \sigma_\infty)^2] = \mathbb E[\sigma(t)^2] - 2\sigma_\infty \mathbb E[\sigma(t)] + \sigma_\infty^2.
+\]
+
+Por tanto, atendiendo a lo obtenido en los apartados anteriores, tenemos
+\[
+Var[\sigma(t)]=\mathbb E[\sigma(t)^2] - \mathbb E[\sigma(t)]^2 = \mathbb E[Y(t)]-\sigma_\infty^2 + 2\sigma_{\infty}\mathbb E[\sigma(t)] - (\mathbb E[\sigma(t)])^2 =
+\]
+\[
+=e^{-2\alpha(t-t_0)}\left((\sigma_0-\sigma_{\infty})^2 - \frac{\xi^2}{2\alpha}\right) + \frac{\xi^2}{2\alpha}-\sigma_\infty^2 + 2\sigma_{\infty}\left(\sigma_\infty + (\sigma_0 - \sigma_\infty)e^{-\alpha(t-t_0)} \right) - \left(\sigma_\infty + (\sigma_0 - \sigma_\infty)e^{-\alpha(t-t_0)}\right)^2 =
+\]
+\[
+= \frac{\xi^2}{2\alpha}\left(1 - e^{-2\alpha(t-t_0)}\right).
+\]
+
+\textbf{g)} La distribución de $\sigma(t)\mid \sigma(t_0)=\sigma_0$ es normal, ya que el proceso aleatorio evoluciona en el tiempo sumando un proceso de Wiener (independiente en cada tiempo), y sabemos que la suma de normales independientes sigue siendo normal. Además, también conocemos los parámetros de la distribución, que hemos calculado en los apartados anteriores. Por tanto, la función de densidad es aquella de la distribución normal de media $\mathbb E[\sigma(t)]$ y varianza $Var[\sigma(t)]$, es decir:
+\[
+p(\sigma(t)=\sigma\mid \sigma(t_0)=\sigma_0) = \frac{1}{\displaystyle \sqrt{\pi \frac{\xi^2}{\alpha}\left(1 - e^{-2\alpha(t-t_0)}\right)}}\exp\left( -\frac{\left(\sigma - \sigma_\infty - (\sigma_0 - \sigma_\infty)e^{-\alpha(t-t_0)} \right)^2}{\displaystyle \frac{\xi^2}{\alpha}\left(1 - e^{-2\alpha(t-t_0)}\right)}\right).
+\]
+
+\end{document}
