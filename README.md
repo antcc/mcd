@@ -19,3 +19,7 @@ Ejercicios, prácticas y exámenes del curso 2020/21. La mayoría realizados jun
 **OPTIM**: Optimización.     
 **PICDD**: Proyecto de Investigación en Ciencia de Datos.    
 **PIT**: Procesamiento de Información Temporal.   
+
+-------
+
+Curso 2021/22: por ejemplo en los repositorios de [fjsaezm](https://github.com/fjsaezm/mcd) y [glorelvalle](https://github.com/glorelvalle/mucd-mg).
